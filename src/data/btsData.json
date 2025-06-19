@@ -1,0 +1,704 @@
+[
+    {
+        "SL": "1",
+        "site": "Ballia ",
+        "latitude": "25.7625",
+        "longitude": "84.1482"
+    },
+    {
+        "SL": "2",
+        "site": "Tikhampur ",
+        "latitude": "25.7688",
+        "longitude": "84.1502"
+    },
+    {
+        "SL": "3",
+        "site": "Belthra Road ",
+        "latitude": "26.1183",
+        "longitude": "83.8492"
+    },
+    {
+        "SL": "4",
+        "site": "Rasra ",
+        "latitude": "25.85089",
+        "longitude": "83.86478"
+    },
+    {
+        "SL": "5",
+        "site": "Bansdih Road  ",
+        "latitude": "25.81331",
+        "longitude": "84.20752"
+    },
+    {
+        "SL": "6",
+        "site": "Raniganj ",
+        "latitude": "25.7864",
+        "longitude": "84.4827"
+    },
+    {
+        "SL": "7",
+        "site": "Sikanderpur ",
+        "latitude": "26.0371",
+        "longitude": "84.0507"
+    },
+    {
+        "SL": "8",
+        "site": "Haldi ",
+        "latitude": "25.7397",
+        "longitude": "84.3001"
+    },
+    {
+        "SL": "9",
+        "site": "Dubahar ",
+        "latitude": "25.7443",
+        "longitude": "84.2488"
+    },
+    {
+        "SL": "10",
+        "site": "Phephna ",
+        "latitude": "25.7687",
+        "longitude": "84.0472"
+    },
+    {
+        "SL": "11",
+        "site": "Basantpur Sukhpura ",
+        "latitude": "25.8557",
+        "longitude": "84.0959"
+    },
+    {
+        "SL": "12",
+        "site": "Bhimpura ",
+        "latitude": "26.0338",
+        "longitude": "83.7669"
+    },
+    {
+        "SL": "13",
+        "site": "Chilkahar ",
+        "latitude": "25.826",
+        "longitude": "83.9641"
+    },
+    {
+        "SL": "14",
+        "site": "Garwar ",
+        "latitude": "25.8319",
+        "longitude": "84.0318"
+    },
+    {
+        "SL": "15",
+        "site": "Ibrahimpatti ",
+        "latitude": "26.0774",
+        "longitude": "83.7079"
+    },
+    {
+        "SL": "16",
+        "site": "Laxmanpur ",
+        "latitude": "25.6543",
+        "longitude": "84.0121"
+    },
+    {
+        "SL": "17",
+        "site": "Maniar ",
+        "latitude": "25.9841",
+        "longitude": "84.1771"
+    },
+    {
+        "SL": "18",
+        "site": "Nagra ",
+        "latitude": "25.964",
+        "longitude": "83.8548"
+    },
+    {
+        "SL": "19",
+        "site": "Pur TE ",
+        "latitude": "25.9562",
+        "longitude": "84.0027"
+    },
+    {
+        "SL": "20",
+        "site": "Reoti ",
+        "latitude": "25.8466",
+        "longitude": "84.3807"
+    },
+    {
+        "SL": "21",
+        "site": "Sahatwar ",
+        "latitude": "25.8384",
+        "longitude": "84.3039"
+    },
+    {
+        "SL": "22",
+        "site": "Bansdih Road ",
+        "latitude": "25.877639",
+        "longitude": "84.215528"
+    },
+    {
+        "SL": "23",
+        "site": "Chhitauna ",
+        "latitude": "26.03221",
+        "longitude": "83.86541"
+    },
+    {
+        "SL": "24",
+        "site": "Ekail ",
+        "latitude": "26.00399",
+        "longitude": "83.96964"
+    },
+    {
+        "SL": "25",
+        "site": "Beruarbari ",
+        "latitude": "25.8803",
+        "longitude": "84.1372"
+    },
+    {
+        "SL": "26",
+        "site": "Ujiyar Bharauli ",
+        "latitude": "25.5828",
+        "longitude": "83.9654"
+    },
+    {
+        "SL": "27",
+        "site": "Chit Bada Gaon ",
+        "latitude": "25.7404",
+        "longitude": "83.9977"
+    },
+    {
+        "SL": "28",
+        "site": "Dokti ",
+        "latitude": "25.7316",
+        "longitude": "84.5148"
+    },
+    {
+        "SL": "29",
+        "site": "Husainabad ",
+        "latitude": "25.884",
+        "longitude": "84.2838"
+    },
+    {
+        "SL": "30",
+        "site": "J P Nagar ",
+        "latitude": "25.7448",
+        "longitude": "84.6105"
+    },
+    {
+        "SL": "31",
+        "site": "Maldah ",
+        "latitude": "26.0963",
+        "longitude": "83.9439"
+    },
+    {
+        "SL": "32",
+        "site": "Pakwainar ",
+        "latitude": "25.8923",
+        "longitude": "83.7966"
+    },
+    {
+        "SL": "33",
+        "site": "Pradhanpur ",
+        "latitude": "25.80466",
+        "longitude": "83.86584"
+    },
+    {
+        "SL": "34",
+        "site": "Ramghar TE ",
+        "latitude": "25.7792",
+        "longitude": "84.3978"
+    },
+    {
+        "SL": "35",
+        "site": "Salempur ",
+        "latitude": "25.9121",
+        "longitude": "83.9449"
+    },
+    {
+        "SL": "36",
+        "site": "Narhi ",
+        "latitude": "25.7112",
+        "longitude": "84.0226"
+    },
+    {
+        "SL": "37",
+        "site": "Athilapur ",
+        "latitude": "25.9122",
+        "longitude": "83.8486"
+    },
+    {
+        "SL": "38",
+        "site": "KODAI ",
+        "latitude": "26.0349",
+        "longitude": "83.9667"
+    },
+    {
+        "SL": "39",
+        "site": "Kazipur ",
+        "latitude": "26.0362",
+        "longitude": "84.1096"
+    },
+    {
+        "SL": "40",
+        "site": "Ratsar ",
+        "latitude": "25.8996",
+        "longitude": "84.0456"
+    },
+    {
+        "SL": "41",
+        "site": "Atarsua ",
+        "latitude": "25.8583",
+        "longitude": "83.7434"
+    },
+    {
+        "SL": "42",
+        "site": "Kopwa ",
+        "latitude": "25.7779",
+        "longitude": "83.9916"
+    },
+    {
+        "SL": "43",
+        "site": "Tola Siwan Rai ",
+        "latitude": "25.7785",
+        "longitude": "84.5506"
+    },
+    {
+        "SL": "44",
+        "site": "Tikadeori ",
+        "latitude": "25.7981",
+        "longitude": "83.8927"
+    },
+    {
+        "SL": "45",
+        "site": "Kureji ",
+        "latitude": "25.8529",
+        "longitude": "83.9962"
+    },
+    {
+        "SL": "46",
+        "site": "Navratanpur ",
+        "latitude": "26.0766",
+        "longitude": "84.0131"
+    },
+    {
+        "SL": "47",
+        "site": "Bisukia ",
+        "latitude": "25.79739983",
+        "longitude": "84.06252"
+    },
+    {
+        "SL": "48",
+        "site": "Hajauli ",
+        "latitude": "25.85747983",
+        "longitude": "83.95243983"
+    },
+    {
+        "SL": "49",
+        "site": "Srinagar ",
+        "latitude": "25.83175983",
+        "longitude": "84.42418"
+    },
+    {
+        "SL": "50",
+        "site": "Barauli ",
+        "latitude": "26.03997",
+        "longitude": "83.68893"
+    },
+    {
+        "SL": "51",
+        "site": "Akhop ",
+        "latitude": "26.11942",
+        "longitude": "83.80682"
+    },
+    {
+        "SL": "52",
+        "site": "Madhubani ",
+        "latitude": "25.80742",
+        "longitude": "84.45519"
+    },
+    {
+        "SL": "53",
+        "site": "Tadi Badagaon ",
+        "latitude": "25.99233",
+        "longitude": "83.83308"
+    },
+    {
+        "SL": "54",
+        "site": "Mudiari ",
+        "latitude": "25.95082",
+        "longitude": "84.19881"
+    },
+    {
+        "SL": "55",
+        "site": "Jam ",
+        "latitude": "25.8836",
+        "longitude": "83.89929"
+    },
+    {
+        "SL": "56",
+        "site": "Sisotar Diyra ",
+        "latitude": "26.05775",
+        "longitude": "84.0741"
+    },
+    {
+        "SL": "57",
+        "site": "Akhar ",
+        "latitude": "25.76361983",
+        "longitude": "84.21896983"
+    },
+    {
+        "SL": "58",
+        "site": "Badagaon ",
+        "latitude": "25.91739",
+        "longitude": "84.13606"
+    },
+    {
+        "SL": "59",
+        "site": "Basantpur Mustkam ",
+        "latitude": "25.83134",
+        "longitude": "84.13255983"
+    },
+    {
+        "SL": "60",
+        "site": "Daulatpur ",
+        "latitude": "25.68887",
+        "longitude": "83.98945983"
+    },
+    {
+        "SL": "61",
+        "site": "Daya Chhapra ",
+        "latitude": "25.77448",
+        "longitude": "84.43064983"
+    },
+    {
+        "SL": "62",
+        "site": "Kasaundar ",
+        "latitude": "26.00901983",
+        "longitude": "83.79524983"
+    },
+    {
+        "SL": "63",
+        "site": "Kharauni ",
+        "latitude": "25.90103983",
+        "longitude": "84.24596983"
+    },
+    {
+        "SL": "64",
+        "site": "Middha ",
+        "latitude": "25.77289983",
+        "longitude": "84.1169"
+    },
+    {
+        "SL": "65",
+        "site": "Kharasra ",
+        "latitude": "25.929823",
+        "longitude": "84.080775"
+    },
+    {
+        "SL": "66",
+        "site": "Charauan ",
+        "latitude": "26.05019444",
+        "longitude": "83.81908333"
+    },
+    {
+        "SL": "67",
+        "site": "Jugesra ",
+        "latitude": "25.97489",
+        "longitude": "84.03253"
+    },
+    {
+        "SL": "68",
+        "site": "Khari ",
+        "latitude": "25.95881",
+        "longitude": "83.91953"
+    },
+    {
+        "SL": "69",
+        "site": "Pashuhari ",
+        "latitude": "26.08585",
+        "longitude": "83.81761"
+    },
+    {
+        "SL": "70",
+        "site": "Belhari ",
+        "latitude": "25.771972",
+        "longitude": "84.35075"
+    },
+    {
+        "SL": "71",
+        "site": "Farsatar Chandadih ",
+        "latitude": "26.0677",
+        "longitude": "83.9191"
+    },
+    {
+        "SL": "72",
+        "site": "Bhrigu Ashram ",
+        "latitude": "25.7584",
+        "longitude": "84.1594"
+    },
+    {
+        "SL": "73",
+        "site": "Bahadurpur ",
+        "latitude": "25.7775",
+        "longitude": "84.1407"
+    },
+    {
+        "SL": "74",
+        "site": "Japlinganj ",
+        "latitude": "25.756081",
+        "longitude": "84.154231"
+    },
+    {
+        "SL": "75",
+        "site": "Chandra Shekhar Nagar ",
+        "latitude": "25.7524",
+        "longitude": "84.1387"
+    },
+    {
+        "SL": "76",
+        "site": "Parmandapur ",
+        "latitude": "25.7638",
+        "longitude": "84.1388"
+    },
+    {
+        "SL": "77",
+        "site": "Kalpna Colony ",
+        "latitude": "25.7721",
+        "longitude": "84.1521"
+    },
+    {
+        "SL": "78",
+        "site": "Bishunipur ",
+        "latitude": "25.756",
+        "longitude": "84.1479"
+    },
+    {
+        "SL": "79",
+        "site": "Kadam Chauraha ",
+        "latitude": "25.7593",
+        "longitude": "84.1673"
+    },
+    {
+        "SL": "80",
+        "site": "Subhash Nagar ",
+        "latitude": "25.7524",
+        "longitude": "84.1507"
+    },
+    {
+        "SL": "81",
+        "site": "Chaukia More ",
+        "latitude": "26.1201",
+        "longitude": "83.8634"
+    },
+    {
+        "SL": "82",
+        "site": "Rasra-II ",
+        "latitude": "25.8512",
+        "longitude": "83.8453"
+    },
+    {
+        "SL": "83",
+        "site": "Pachkhora ",
+        "latitude": "25.90409",
+        "longitude": "84.0824"
+    },
+    {
+        "SL": "84",
+        "site": "Bighai ",
+        "latitude": "25.7858",
+        "longitude": "84.2994"
+    },
+    {
+        "SL": "85",
+        "site": "Karimpur ",
+        "latitude": "26.0403",
+        "longitude": "83.9197"
+    },
+    {
+        "SL": "86",
+        "site": "Nadauli ",
+        "latitude": "25.8933",
+        "longitude": "83.9895"
+    },
+    {
+        "SL": "87",
+        "site": "Shivpur Diar ",
+        "latitude": "25.6918",
+        "longitude": "84.2214"
+    },
+    {
+        "SL": "88",
+        "site": "Sawra ",
+        "latitude": "25.8354",
+        "longitude": "83.9265"
+    },
+    {
+        "SL": "89",
+        "site": "Ashanwar ",
+        "latitude": "25.8881",
+        "longitude": "83.9561"
+    },
+    {
+        "SL": "90",
+        "site": "Bansdih Market ",
+        "latitude": "25.88416",
+        "longitude": "84.21814"
+    },
+    {
+        "SL": "91",
+        "site": "Bara Bandh ",
+        "latitude": "25.8691",
+        "longitude": "84.0401"
+    },
+    {
+        "SL": "92",
+        "site": "Charwa Barwa ",
+        "latitude": "26.013574",
+        "longitude": "84.018219"
+    },
+    {
+        "SL": "93",
+        "site": "Dumri ",
+        "latitude": "25.7956",
+        "longitude": "83.9536"
+    },
+    {
+        "SL": "94",
+        "site": "Farsatar ",
+        "latitude": "26.08887",
+        "longitude": "83.85709"
+    },
+    {
+        "SL": "95",
+        "site": "Karnai ",
+        "latitude": "25.8186",
+        "longitude": "84.1003"
+    },
+    {
+        "SL": "96",
+        "site": "Kathegra ",
+        "latitude": "26.0804",
+        "longitude": "83.9715"
+    },
+    {
+        "SL": "97",
+        "site": "Kotwa Narayanpur ",
+        "latitude": "25.571421",
+        "longitude": "83.935943"
+    },
+    {
+        "SL": "98",
+        "site": "Pilue ",
+        "latitude": "25.992043",
+        "longitude": "84.13943"
+    },
+    {
+        "SL": "99",
+        "site": "Sher ",
+        "latitude": "25.793727",
+        "longitude": "84.253916"
+    },
+    {
+        "SL": "100",
+        "site": "Shivrampur ",
+        "latitude": "25.858023",
+        "longitude": "84.213381"
+    },
+    {
+        "SL": "101",
+        "site": "Anand Nagar ",
+        "latitude": "25.77517",
+        "longitude": "84.1446"
+    },
+    {
+        "SL": "102",
+        "site": "Turti Bazar ",
+        "latitude": "26.1543",
+        "longitude": "83.8608"
+    },
+    {
+        "SL": "103",
+        "site": "Gothauli ",
+        "latitude": "25.7859",
+        "longitude": "84.1557"
+    },
+    {
+        "SL": "104",
+        "site": "Karimganj ",
+        "latitude": "26.1266",
+        "longitude": "83.8911"
+    },
+    {
+        "SL": "105",
+        "site": "Rasra-III ",
+        "latitude": "25.86561",
+        "longitude": "83.85309"
+    },
+    {
+        "SL": "106",
+        "site": "Nagwa  ",
+        "latitude": "25.750638",
+        "longitude": "84.208059"
+    },
+    {
+        "SL": "107",
+        "site": "Durjanpur  ",
+        "latitude": "25.7601",
+        "longitude": "84.33421"
+    },
+    {
+        "SL": "108",
+        "site": "Subantha  ",
+        "latitude": "25.68849",
+        "longitude": "84.0169"
+    },
+    {
+        "SL": "109",
+        "site": "Majhauwa Haldi  ",
+        "latitude": "25.77543",
+        "longitude": "84.37386"
+    },
+    {
+        "SL": "110",
+        "site": "Bharauli ",
+        "latitude": "25.60273",
+        "longitude": "83.98435"
+    },
+    {
+        "SL": "111",
+        "site": "Sikanderpur Exit  ",
+        "latitude": "26.042607",
+        "longitude": "84.048347"
+    },
+    {
+        "SL": "112",
+        "site": "Bharatpura  ",
+        "latitude": "25.80618",
+        "longitude": "84.12896"
+    },
+    {
+        "SL": "113",
+        "site": "Asan Majhauba  ",
+        "latitude": "25.88418",
+        "longitude": "84.08419"
+    },
+    {
+        "SL": "114",
+        "site": "Baheri Sikanderpur  ",
+        "latitude": "26.00144",
+        "longitude": "84.06289"
+    },
+    {
+        "SL": "115",
+        "site": "Walidadpur  ",
+        "latitude": "26.05825",
+        "longitude": "84.02213"
+    },
+    {
+        "SL": "116",
+        "site": "Haldi Rampur ",
+        "latitude": "26.10338",
+        "longitude": "83.91153"
+    },
+    {
+        "SL": "117",
+        "site": "Sagarpali ",
+        "latitude": "25.7573",
+        "longitude": "84.0945"
+    }
+]

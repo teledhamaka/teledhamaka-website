@@ -1,0 +1,437 @@
+[
+  {
+    "plan_type": "New Year Offer - Regular Bharat Fibre Plans",
+    "applicability": "All SSAs of MP Circle",
+    "validity_period": "1-APR-25 to 30-JUN-25",
+    "note_offer": "Customers will not be charged for the month in which customer is onboarded. After three months (excluding free service month), the discount will not be there, and customers will be charged as per initial opted plan.",
+    "plans": [
+      {
+        "plan_name": "Fibre Basic",
+        "fmc": "Rs 499/-",
+        "marketing_text": "Experience seamless Browse with Fibre Basic! Get incredible speeds and a discount for your first few months. Perfect for everyday home use!",
+        "download_speed": "Up to 60 Mbps till 3300 GB/month, Up to 4 Mbps beyond",
+        "first_month_offer": "Free service",
+        "monthly_discount_after_1st_month": "Rs.100/- (For 3 months)",
+        "free_calling": "Local + STD Free calling on all N/W"
+      },
+      {
+        "plan_name": "Fibre Basic Neo",
+        "fmc": "Rs 449/-",
+        "marketing_text": "Get started with Fibre Basic Neo! Enjoy great speeds and a special discount for your initial months. Your essential internet companion!",
+        "download_speed": "Up to 50 Mbps till 3300 GB/month, Up to 4 Mbps beyond",
+        "first_month_offer": "Free service",
+        "monthly_discount_after_1st_month": "Rs.50/- (For 3 months)",
+        "free_calling": "Local + STD Free calling on all N/W"
+      }
+    ]
+  },
+  {
+    "plan_type": "Regular Bharat Fibre Plans - Quarterly and Half Yearly",
+    "applicability": "All SSAs of MP Circle",
+    "note": "FIBRE ENTRY Monthly plan Rs 329/- and its variants are discontinued. No other discount except waiver of installation charges will be applicable to above plans. Available in all order types including conversion. Default ONTs will be available (Non Wi-Fi Type A & B and WIFI ENABLED ONT). Bundled ONTs are not allowed.",
+    "plans": [
+      {
+        "plan_name": "Fibre Entry Quarterly",
+        "fmc": "Rs 999/- (Rental)",
+        "marketing_text": "Commit to connectivity with Fibre Entry Quarterly! Enjoy consistent speeds for three months. Simple, reliable, and super fast!",
+        "download_speed": "Up to 25 Mbps till 1200 GB/Month, Up to 4 Mbps beyond",
+        "free_calling": "Local + STD Free calling on all N/W"
+      },
+      {
+        "plan_name": "Fibre Entry Half Yearly",
+        "fmc": "Rs 1999/- (Rental)",
+        "marketing_text": "Go for long-term savings with Fibre Entry Half Yearly! Six months of uninterrupted high-speed internet. Smart choice for smart homes!",
+        "download_speed": "Up to 25 Mbps till 1300 GB/Month, Up to 4 Mbps beyond",
+        "free_calling": "Local + STD Free calling on all N/W"
+      }
+    ]
+  },
+  {
+    "plan_type": "Home Wi-Fi/Ghar Ka Wi-Fi (Committed Quarterly) for Urban Areas",
+    "applicability": "All Urban & Rural users of individual category (not for institutes)",
+    "quarterly_charges": "Rs.1197/- (Non refundable)",
+    "marketing_text": "Transform your home into a Wi-Fi zone with Ghar Ka Wi-Fi! Reliable speeds with a cashback promise. Your home, connected!",
+    "download_speed": "Up to 30 Mbps till 1400 GB/month, Up to 4 Mbps beyond",
+    "remark": "Commit plan with cashback of Rs 98/- in next quarter bill. Available in CDR since 17.04.2025.",
+    "free_calling": "Local + STD Free calling on all N/W"
+  },
+  {
+    "plan_type": "Regular Bharat Fibre Plans (Various)",
+    "applicability": "All SSAs of MP Circle",
+    "note": "Local + STD Free calling on all N/W is available in above all Bharat Fibre Plans. GST will be charged Extra. T&C apply. Updated as on 21-Apr-2025.",
+    "plans": [
+      {
+        "plan_name": "HOME WiFi-/GHAR KA WIFI@Rs.399",
+        "fmc": "Rs.399",
+        "marketing_text": "Connect your home with budget-friendly Wi-Fi! Ideal for rural areas and landline to FTTH conversions in urban. Stay connected without breaking the bank!",
+        "download_speed": "Up to 30 Mbps till 1400 GB/month, up to 4 Mbps beyond",
+        "free_ott": "Not available. Subscribed through OTT Add-on pack of Rs.49, 199, 249/-. Applicable for individual category customers (Not for institutions) in Rural Area for all customers and also in urban areas for landline to FTTH conversions only"
+      },
+      {
+        "plan_name": "Fibre Basic NEO",
+        "fmc": "Rs. 449",
+        "marketing_text": "Get essential speeds with Fibre Basic Neo! Perfect for your daily online needs. Affordable and reliable connectivity!",
+        "download_speed": "Up to 50 Mbps till 3300 GB/month, up to 4 Mbps beyond",
+        "free_ott": "Not available. Subscribed through OTT Add-on pack of Rs.49, 199, 249/-"
+      },
+      {
+        "plan_name": "Fibre Basic",
+        "fmc": "Rs.499",
+        "marketing_text": "Upgrade to Fibre Basic for faster internet! Enjoy more data and higher speeds for all your online activities. Value for money guaranteed!",
+        "download_speed": "Up to 60 Mbps till 3300 GB/month, up to 4 Mbps beyond",
+        "free_ott": "Not available. Subscribed through OTT Add-on pack of Rs.49, 199, 249/-"
+      },
+      {
+        "plan_name": "Fibre Basic Plus",
+        "fmc": "Rs.599",
+        "marketing_text": "Power up your home with Fibre Basic Plus! Experience super-fast 100 Mbps speed and massive data. Ideal for multiple users!",
+        "download_speed": "Up to 100 Mbps till 4000 GB/month, up to 4 Mbps beyond",
+        "free_ott": "Not available. Subscribed through OTT Add-on pack of Rs.49, 199, 249/-"
+      },
+      {
+        "plan_name": "Fibre Basic OTT (New Plan)",
+        "fmc": "Rs.599",
+        "marketing_text": "Get the best of both worlds with Fibre Basic OTT! High-speed internet combined with a Disney+ Hotstar Super Plan. Entertainment redefined!",
+        "download_speed": "Up to 75 Mbps till 4000 GB/month, up to 4 Mbps beyond",
+        "free_ott": "Disney Hotstar Super Plan"
+      },
+      {
+        "plan_name": "Fibre Basic Plus OTT",
+        "fmc": "Rs.699",
+        "marketing_text": "Elevate your entertainment with Fibre Basic Plus OTT! Enjoy 100 Mbps speed and choose from amazing OTT packs. Your ultimate streaming partner!",
+        "download_speed": "Up to 100 Mbps till 4000 GB/month, up to 4 Mbps beyond",
+        "free_ott": "Subscriber can opt either of the packs: Pack-I: Disney Hot Star Super plan, Hungama, Lionsgate, ShemarooMe, Epicon; Pack-II: Yupp TV Pack (Zee5premium, SonyLiv Premium, YuppTV)"
+      },
+      {
+        "plan_name": "Fibre TP Plan",
+        "fmc": "Rs.799",
+        "marketing_text": "Experience blazing fast speeds with Fibre TP Plan! Get 150 Mbps for heavy usage. Pure internet power!",
+        "download_speed": "Up to 150 Mbps till 4000 GB/month, up to 10 Mbps beyond",
+        "free_ott": "Not available. Subscribed through OTT Add-on pack of Rs.49, 199, 249/-"
+      },
+      {
+        "plan_name": "Fibre Government @Rs.799/-",
+        "fmc": "Rs.799",
+        "marketing_text": "Dedicated connectivity for Government users! Reliable 100 Mbps speed designed for official needs. Seamless and secure!",
+        "download_speed": "Up to 100 Mbps till 3300 GB/month, up to 4 Mbps beyond",
+        "free_ott": "Not available. Plan applicable for Government category connections only"
+      },
+      {
+        "plan_name": "Fibre Value OTT",
+        "fmc": "Rs.799",
+        "marketing_text": "Unleash ultimate entertainment with Fibre Value OTT! High speeds and choice of any two premium OTT packs. Your complete entertainment hub!",
+        "download_speed": "Up to 125 Mbps till 4000 GB/month, up to 8 Mbps beyond",
+        "free_ott": "Subscriber can opt any two of the OTT packs: Pack-I: Disney Hot Star Super plan; Pack-II: Yupp TV Pack (Zee5 premium, SonyLiv Premium, YuppTV); Pack-III: Hungama, LionsGate, Epicon, ShemaroMe"
+      },
+      {
+        "plan_name": "Fibre Values Plus",
+        "fmc": "Rs.849",
+        "marketing_text": "Step up to Fibre Values Plus! Enjoy massive 150 Mbps speed and 5000GB data. Perfect for avid internet users and large families!",
+        "download_speed": "Up to 150Mbps till 5000GB, upto 10Mbps beyond",
+        "free_ott": "Not available. Subscribed through OTT Add-on pack of Rs.49, 199, 249/-"
+      },
+      {
+        "plan_name": "Fibre Premium Plus",
+        "fmc": "Rs.1299",
+        "marketing_text": "Experience elite speeds with Fibre Premium Plus! Get 225 Mbps and 6000GB data for the ultimate online experience. Unmatched performance!",
+        "download_speed": "Up to 225 Mbps till 6000GB, upto 15Mbps beyond",
+        "free_ott": "Not available. Subscribed through OTT Add-on pack of Rs.49, 199, 249/-"
+      },
+      {
+        "plan_name": "Super Star Premium Plus",
+        "fmc": "Rs.999",
+        "marketing_text": "Become a Super Star with this premium plan! 200 Mbps speed and a fantastic bundle of OTT entertainment. Your all-in-one package!",
+        "download_speed": "Up to 200Mbps till 5000 GB/month, up to 10 Mbps beyond",
+        "free_ott": "Disney Hot Star Super pack, Lines Gate LLP, Shemaroo Me and Shemaroo Gujarati, Hungama Music and Hungama play SVOD, SonyLIV Premium, Zee5 Premium, Yupp TV Live and Yupp TV Packages, Epicon"
+      },
+      {
+        "plan_name": "Fibre Premium Plus OTT",
+        "fmc": "Rs.1499",
+        "marketing_text": "The ultimate Fibre experience with OTT! Blaze through the internet at 250 Mbps and enjoy a comprehensive suite of entertainment. Premium connectivity!",
+        "download_speed": "Up to 250 Mbps till 6000GB/month, up to 15 Mbps beyond",
+        "free_ott": "Disney Hot Star Super pack, Lines Gate LLP, Shemaroo Me and Shemaroo Gujarati, Hungama Music and Hungama play SVOD, SonyLIV Premium, Zee5 Premium, Yupp TV Live and Yupp TV Packages, Epicon"
+      },
+      {
+        "plan_name": "Fibre Ultra OTT",
+        "fmc": "Rs.1799",
+        "marketing_text": "Experience the pinnacle of speed and entertainment with Fibre Ultra OTT! Unprecedented 300 Mbps speed and a massive OTT bundle. For the true digital enthusiast!",
+        "download_speed": "Up to 300 Mbps till 6500GB/month, up to 20 Mbps beyond",
+        "free_ott": "Disney Hot Star Super pack, Lines Gate LLP, Shemaroo Me and Shemaroo Gujarati, Hungama Music and Hungama play SVOD, SonyLIV Premium, Zee5 Premium, Yupp TV Live and Yupp TV Packages, Epicon"
+      }
+    ]
+  },
+  {
+    "plan_type": "Half Yearly Bharat Fibre Broadband Plan",
+    "applicability": "Rural Areas Only",
+    "note": "To restore already disconnected rural connections by providing above plan, all the charges from date of OG barred will be waived off. Further, no restoration charges will be levied. Before restoration of such connections, outstanding dues against these connections will be collected in 3 instalments (30% before restoration, 35% during residency period of 6 months, 35% later) for the restoration of connections on demand of disconnected customers.",
+    "plans": [
+      {
+        "plan_name": "Fibre 999",
+        "half_yearly_charges": "Rs.999/- (6-months)",
+        "marketing_text": "Rural areas, rejoice! Get 6 months of fibre connectivity at an unbeatable price. Local + STD unlimited calling included. Your rural digital solution!",
+        "free_calls": "Local + STD unlimited on any network",
+        "download_speed": "Up to 25 Mbps till 50 GB, up to 2 Mbps beyond"
+      }
+    ]
+  },
+  {
+    "plan_type": "FTTH Voice Unlimited Plans",
+    "note": "Local + STD Free calling on all N/W is available in above all Bharat Fibre Plans.",
+    "plans": [
+      {
+        "plan_name": "RURAL FTTH Voice Unlimited",
+        "fmc": "Rs.249/-",
+        "marketing_text": "Rural unlimited voice calling on FTTH! Stay connected with friends and family without limits. Great value for essential communication!",
+        "free_calls": "Local + STD unlimited on any network",
+        "download_speed": "Up to 25 Mbps till 10 GB/month, up to 2 Mbps beyond"
+      },
+      {
+        "plan_name": "URBAN FTTH Voice Unlimited",
+        "fmc": "Rs.299/-",
+        "marketing_text": "Urban unlimited voice calling on FTTH! Enjoy seamless conversations across all networks. Connect effortlessly from your home!",
+        "free_calls": "Local + STD unlimited on any network",
+        "download_speed": "Up to 25 Mbps till 20 GB/month, up to 2 Mbps beyond"
+      }
+    ]
+  },
+  {
+    "plan_type": "Fibre Plan for migrating Landline customers to FTTH",
+    "applicability": "Landline(Copper) customers",
+    "plans": [
+      {
+        "plan_name": "FTTH Sulabh (Voice Incoming Only)",
+        "fmc": "Rs.150/-",
+        "marketing_text": "Migrate your landline to FTTH with Sulabh! Keep incoming voice services and get basic data connectivity. Modernize your home communication!",
+        "free_calls": "Nil (Voice Incoming Only)",
+        "bandwidth": "1 GB with up to 25 Mbps"
+      },
+      {
+        "plan_name": "FTTH Basic Value Plan",
+        "fmc": "Rs.199/-",
+        "marketing_text": "Upgrade to FTTH Basic Value! Unlimited Local + STD calls and a data allowance. Perfect for landline customers seeking more. Seamless transition, enhanced connectivity!",
+        "free_calls": "Local + STD unlimited on any network",
+        "plan_applicability": "Landline(Copper) Customers with less than Rs.199 are allowed to migrate into this plan (i.e. Super Value CUL (FMC Rs.149/-))",
+        "bandwidth": "1 GB with up to 25 Mbps"
+      }
+    ]
+  },
+  {
+    "plan_type": "DSL Broadband Plans",
+    "applicability": "All SSAs of MP Circle",
+    "note": "24 hrs unlimited free calling (Local+ STD) on any network within India is available for most plans. For registration, SMS BB to 54141 (BSNL mobile) or 9400054141 (other mobile). GST will be charged Extra. T&C apply. Updated as on 21-Apr-2025.",
+    "plans": [
+      {
+        "plan_name": "100 GB CUL",
+        "fmc": "Rs. 299 for first six month, Plan shall be converted to 200 GB CUL Plan after six months",
+        "marketing_text": "Start strong with 100 GB CUL! Enjoy high-speed data and unlimited calling for the first six months. Your ideal entry into broadband!",
+        "download_speed": "Up to 10 Mbps till 100 GB, Up to 2 Mbps beyond",
+        "remark": "24 hrs unlimited free calling (Local+STD) on any network within India"
+      },
+      {
+        "plan_name": "200 GB CUL",
+        "fmc": "Rs. 399",
+        "marketing_text": "More data, more freedom with 200 GB CUL! Unlimited calling and ample data for your daily needs. Reliable connectivity for your home!",
+        "download_speed": "Up to 10 Mbps till 200GB, Up to 2 Mbps beyond",
+        "remark": "24 hrs unlimited free calling (Local+STD) on any network within India"
+      },
+      {
+        "plan_name": "500 GB CUL",
+        "fmc": "Rs. 555",
+        "marketing_text": "Go big with 500 GB CUL! Enjoy vast data and unlimited calling. Perfect for heavy internet users and multiple devices!",
+        "download_speed": "Up to 10 Mbps till 500GB, Up to 2 Mbps beyond",
+        "remark": "24 hrs unlimited free calling (Local+STD) on any network within India"
+      },
+      {
+        "plan_name": "Super Star-l",
+        "fmc": "Rs. 779",
+        "marketing_text": "Be a Super Star with this plan! High-speed data, unlimited calling, and a free Hot Star Premium pack. Your complete entertainment solution!",
+        "download_speed": "Up to 10 Mbps till 779GB, up to 2 Mbps beyond",
+        "remark": "24 hrs unlimited free calling (Local+STD) on any network within India, Hot Star Premium pack free"
+      },
+      {
+        "plan_name": "1600 GB CUL",
+        "fmc": "Rs. 1299",
+        "marketing_text": "Unleash massive data with 1600 GB CUL! High speeds and unlimited calling for the most demanding internet users. Unlimited possibilities!",
+        "download_speed": "Up to 10 Mbps till 1600GB, up to 5 Mbps beyond",
+        "remark": "24 hrs unlimited free calling (Local+STD) on any network within India"
+      }
+    ]
+  },
+  {
+    "plan_type": "BSNL Air Fibre Plans",
+    "applicability": "Available in selected areas only.",
+    "note": "Customers will get service for 13 Months on advance payment of 12 month FMC. GST will be charged Extra. T&C apply. Updated as on 21-APR-2025.",
+    "plans": [
+      {
+        "plan_name": "Air Fibre Basic",
+        "fmc": "Rs.499/-",
+        "marketing_text": "Experience wireless speed with Air Fibre Basic! Great for homes in selected areas. Enjoy calling and ample data. Connect without wires!",
+        "download_speed": "Up to 30 Mbps till 3300 GB, up to 2 Mbps beyond",
+        "remark": "24 Hrs. unlimited free calling (Local +STD) on any network within India"
+      },
+      {
+        "plan_name": "Air Fibre Basic Plus",
+        "fmc": "Rs.699/-",
+        "marketing_text": "Step up to Air Fibre Basic Plus! Higher speeds and more data for a smoother wireless experience. Reliable and fast!",
+        "download_speed": "Up to 40 Mbps till 3300 GB, up to 4 Mbps beyond",
+        "remark": "24 Hrs. unlimited free calling (Local +STD) on any network within India"
+      },
+      {
+        "plan_name": "Air Fibre Value",
+        "fmc": "Rs.899/-",
+        "marketing_text": "Unlock maximum wireless potential with Air Fibre Value! Top speeds and abundant data for all your digital needs. Premium wireless connectivity!",
+        "download_speed": "Up to 50 Mbps till 3300GB, up to 6 Mbps beyond",
+        "remark": "24 Hrs. unlimited free calling (Local +STD) on any network within India"
+      }
+    ],
+    "cpe_rental_charges": [
+      {
+        "distance": "up to 3 KM radial distance",
+        "charge": "Rs.249/- (GST Extra)"
+      },
+      {
+        "distance": "beyond 3Kms and up to 5Kms radial distance",
+        "charge": "Rs.299/- (GST Extra)"
+      }
+    ]
+  },
+  {
+    "plan_type": "Installation Free Offer",
+    "validity_period": "Till 31.03.2026",
+    "applicability": "Individual account type customers only.",
+    "details": [
+      {
+        "service": "Landline Installation Charges",
+        "old_charge": "Rs.250",
+        "new_charge": "Free"
+      },
+      {
+        "service": "Broadband Installation Charges",
+        "old_charge": "Rs.250",
+        "new_charge": "Free"
+      },
+      {
+        "service": "Landline + Broadband Installation Charges",
+        "old_charge": "Rs.250",
+        "new_charge": "Free"
+      },
+      {
+        "service": "FTTH connection (Combo Plan)",
+        "old_charge": "Rs.500",
+        "new_charge": "Free"
+      },
+      {
+        "service": "FTTH broadband service over existing voice service",
+        "old_charge": "Rs.250",
+        "new_charge": "Free"
+      },
+      {
+        "service": "Air Fibre Installation Charges",
+        "old_charge": "Rs.250",
+        "new_charge": "Free"
+      }
+    ],
+    "security_deposit_info": "Plan security deposit for local & STD of Rs. 500/- or One Month FMC whichever is higher (refundable) shall be collected in 5 (five) installments across all Landline and Broadband (DSL / Fibre / Air Fibre) plans w.e.f. 01.03.2023. The FMC for Landline and Broadband (DSL / Fibre / Air Fibre) plans will be charged for the current month for all new customers enrolled on or after w.e.f. 01.03.2023."
+  },
+  {
+    "plan_type": "Advance Payment Options for Voice/Broadband (Copper/FTTH/AirFibre)",
+    "applicability": "Across all 'PAN India/Circle Specific' Voice/Broadband 'Copper/FTTH/AirFibre' plans having denomination less than Rs. 1000/- per month.",
+    "note": "Advance payment option is not available in Super Star Premium Plus (Rs.999) Bharat Fibre Plan.",
+    "options": [
+      {
+        "fmc_payable_in_advance": "6 Months FMC (for Voice/Broadband Copper/FTTH/Air Fibre with FMC< Rs 1000/-)",
+        "duration_of_service": "180 Days + 19 days = 199 Days"
+      },
+      {
+        "fmc_payable_in_advance": "12 Months FMC",
+        "duration_of_service": "13 Months"
+      },
+      {
+        "fmc_payable_in_advance": "24 Months FMC",
+        "duration_of_service": "27 Months"
+      },
+      {
+        "fmc_payable_in_advance": "36 Months FMC",
+        "duration_of_service": "40 Months"
+      }
+    ],
+    "old_advance_payment_options": {
+      "applicability": "Landline/DSL Broadband and Old Bharat Fibre Plans i.e. Fibre TB Plan (Rs.777)",
+      "options": [
+        {
+          "fmc_payable_in_advance": "6 Months FMC",
+          "duration_of_service": "6 Months"
+        },
+        {
+          "fmc_payable_in_advance": "10.5 Months FMC",
+          "duration_of_service": "12 Months"
+        },
+        {
+          "fmc_payable_in_advance": "20.5 Months FMC",
+          "duration_of_service": "24 Months"
+        },
+        {
+          "fmc_payable_in_advance": "30.5 Months FMC",
+          "duration_of_service": "36 Months"
+        }
+      ]
+    }
+  },
+  {
+    "plan_type": "BSNL CINEMA PLUS OTT Add-on Packs",
+    "applicability": "BSNL Broadband/Bharat Fibre Customers",
+    "packs": [
+      {
+        "pack_name": "Hungama Combo",
+        "monthly_charges": "Rs.49/-p.m. (exclusive of GST)",
+        "content_offering": "Hungama, Lionsgate, ShemarooMe"
+      },
+      {
+        "pack_name": "Add-on Pack 249",
+        "monthly_charges": "Rs.249/-p.m. (exclusive of GST)",
+        "content_offering": "Disney+Hotstar Super Plan, Hungama Music & Hungama Play SVOD, Lions Gate, ShemarooMe, Sony LIV Premium, Zee5 Premium All access pack, Yupp TV Live (NCF Channels) and many more as per Yupp TV package"
+      },
+      {
+        "pack_name": "Add-on Pack 199",
+        "monthly_charges": "Rs.199/-p.m.(exclusive of GST)",
+        "content_offering": "EPIC ON, Sony LIV Premium, Zee5 Premium - All access pack, Yupp TV Live (NCF channels) and many more as per Yupp TV package"
+      }
+    ],
+    "how_to_avail": "To avail the services click download BSNL e care app/contact BSNL CSC/Channel partners"
+  },
+  {
+    "plan_type": "Bharat Fibre / Bharat Air Fibre Broadband Plan for BSNL Public Data Office (PDO)",
+    "applicability": "PDO of only rural areas",
+    "note": "GST will be charged Extra. T&C apply. Updated as on 21-APR-2025.",
+    "plans": [
+      {
+        "plan_name": "BSNL PDO Basic",
+        "fmc": "Rs. 499",
+        "annual_payment_option": "5988",
+        "security_deposit": "One month FMC",
+        "minimum_hire_period": "One month",
+        "marketing_text": "Empower your rural PDO with BSNL PDO Basic! Fast Wi-Fi for your customers and dedicated bandwidth for your usage. Connecting rural India!",
+        "bandwidth_for_wifi_customers": "Up to 50 Mbps",
+        "download_speed": "up to 20 Mbps till 500 GB, up to 2 Mbps beyond",
+        "telephone_fixed_monthly_charges": "Nil",
+        "free_calls": "24 Hrs unlimited free calling (Local + STD) on any network in India",
+        "isd": "No ISD Facility",
+        "status_ip": "N/A"
+      },
+      {
+        "plan_name": "BSNL PDO Premium",
+        "fmc": "Rs. 999",
+        "annual_payment_option": "11988",
+        "security_deposit": "500",
+        "minimum_hire_period": "One month",
+        "marketing_text": "Boost your rural PDO with BSNL PDO Premium! Superior Wi-Fi speeds for customers and generous bandwidth for your operations. Advanced rural connectivity!",
+        "bandwidth_for_wifi_customers": "up to 100 Mbps",
+        "download_speed": "up to 20 Mbps till 1000 GB, up to 2 Mbps beyond",
+        "telephone_fixed_monthly_charges": "Nil",
+        "free_calls": "24 Hrs unlimited free calling (Local + STD) on any network in India",
+        "isd": "No ISD Facility",
+        "status_ip": "One @ Rs.2000 per annum"
+      }
+    ]
+  }
+]

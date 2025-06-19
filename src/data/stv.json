@@ -1,0 +1,37 @@
+[
+  {     
+    "special_tariff_vouchers": [
+    {
+      "stv_name": "Voice STV 299",
+      "price": "₹299",
+      "validity": "30 days",
+      "highlights": "30 days unlimited calls + 100 SMS/day + 3GB/day data - Perfect combo!",
+      "benefits": {
+        "voice": "Unlimited local/STD calls",
+        "sms": "100/day",
+        "data": "3GB/day"
+      }
+    },
+    {
+      "stv_name": "Data STV 251",
+      "price": "₹251",
+      "validity": "60 days",
+      "highlights": "Massive 251GB data for 60 days! Ideal for binge-watchers and gamers.",
+      "benefits": {
+        "data": "251GB"
+      }
+    },
+    {
+      "stv_name": "IR STV 2199",
+      "price": "₹2199",
+      "validity": "28 days",
+      "highlights": "UAE roaming pack: 120mins incoming, 200mins outgoing & 1GB data!",
+      "benefits": {
+        "voice": "120mins incoming, 200mins outgoing to India",
+        "data": "1GB",
+        "countries": "UAE"
+      }
+    }
+    ]
+  } 
+]  

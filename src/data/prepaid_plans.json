@@ -1,0 +1,91 @@
+[
+    {
+    "prepaid_plans": [
+    {
+      "plan_name": "Plan-153",
+      "price": "₹153",
+      "validity": "35 days",
+      "highlights": "Enjoy 200 minutes of any-network calls and 3GB data for uninterrupted browsing!",
+      "benefits": {
+        "voice": "200 min any-network calls",
+        "sms": "Nil",
+        "data": "3GB",
+        "additional": "Unlimited data @40kbps after free limit"
+      },
+      "call_rates": {
+        "local": "₹1/min",
+        "std": "₹1.3/min",
+        "roaming": "₹0.8/min (local outgoing)"
+      }
+    },
+    {
+      "plan_name": "Plan-197",
+      "price": "₹197",
+      "validity": "26 days",
+      "highlights": "Unlimited calls + 100 SMS/day + 26GB high-speed data! Perfect for heavy users.",
+      "benefits": {
+        "voice": "Unlimited any-network calls",
+        "sms": "100/day",
+        "data": "26GB",
+        "additional": "Unlimited data @40kbps after free limit"
+      },
+      "call_rates": {
+        "local": "₹1/min",
+        "std": "₹1.3/min",
+        "roaming": "₹0.8/min (local outgoing)"
+      }
+    },
+    {
+      "plan_name": "Plan-249",
+      "price": "₹249",
+      "validity": "45 days",
+      "highlights": "45 days of unlimited calls, 100 SMS/day, and 2GB/day data - Great value!",
+      "benefits": {
+        "voice": "Unlimited any-network calls",
+        "sms": "100/day",
+        "data": "2GB/day",
+        "additional": "Unlimited data @40kbps after free limit"
+      },
+      "call_rates": {
+        "local": "₹1/min",
+        "std": "₹1.3/min",
+        "roaming": "₹0.8/min (local outgoing)"
+      }
+    },
+    {
+      "plan_name": "Plan-997",
+      "price": "₹997",
+      "validity": "160 days",
+      "highlights": "Half-year pack! Unlimited calls, 100 SMS/day & 2GB/day data for 160 days.",
+      "benefits": {
+        "voice": "Unlimited calls",
+        "sms": "100/day",
+        "data": "2GB/day",
+        "additional": "Unlimited data @40kbps after free limit"
+      },
+      "call_rates": {
+        "local": "₹1/min",
+        "std": "₹1.3/min",
+        "roaming": "₹0.8/min (local outgoing)"
+      }
+    },
+    {
+      "plan_name": "Plan-1999",
+      "price": "₹1999",
+      "validity": "365 days",
+      "highlights": "Year-long unlimited calls, 100 SMS/day & 600GB high-speed data! Best annual deal.",
+      "benefits": {
+        "voice": "Unlimited calls",
+        "sms": "100/day",
+        "data": "600GB",
+        "additional": "Unlimited data @40kbps after free limit"
+      },
+      "call_rates": {
+        "local": "₹1/min",
+        "std": "₹1.3/min",
+        "roaming": "₹0.8/min (local outgoing)"
+      }
+    }
+    ]
+}
+]

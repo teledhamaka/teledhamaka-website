@@ -1,0 +1,118 @@
+{
+  "plans": {
+    "fibre": [
+      {
+        "name": "Fibre Basic (FMC ₹499)",
+        "category": "Basic",
+        "price": "₹499/month",
+        "speed": "60 Mbps",
+        "data": "3300 GB + 4 Mbps beyond",
+        "validity": "Monthly",
+        "offer": "1st Month FREE | ₹100 discount for 3 months",
+        "features": ["Unlimited Local/STD Calls", "New customers only (Apr-Jun 2025)"],
+        "marketingText": "🚀 **Start FREE!** Stream HD content at 60 Mbps – Perfect for families!"
+      },
+      {
+        "name": "Fibre Premium Plus OTT (₹1499)",
+        "category": "Premium",
+        "price": "₹1499/month",
+        "speed": "250 Mbps",
+        "data": "6000 GB + 15 Mbps beyond",
+        "ott": "Customizable OTT packs",
+        "features": ["4K Streaming", "Priority Support"],
+        "marketingText": "🎬 **Ultimate 4K Experience!** 6000 GB data for heavy streaming!"
+      }
+    ],
+    
+    "airFibre": [
+      {
+        "name": "Air Fibre Basic Plus (₹499)",
+        "price": "₹499/month",
+        "speed": "30 Mbps",
+        "data": "3300 GB + 2 Mbps beyond",
+        "validity": "13 months for 12-month payment",
+        "coverage": "Up to 5 km",
+        "marketingText": "📡 **Wireless Freedom!** 30 Mbps speeds + Unlimited calls!"
+      }
+    ],
+
+    "ruralPlans": [
+      {
+        "name": "Fibre 999 (Rural)",
+        "price": "₹999/6-months",
+        "speed": "25 Mbps",
+        "data": "50 GB + 2 Mbps beyond",
+        "features": ["Waived Restoration Charges", "3-Installment Payment"],
+        "marketingText": "🌾 **Revive Your Connection!** Affordable rural broadband with flexible payments!"
+      }
+    ],
+
+    "landline": [
+      {
+        "name": "Value All CUL (₹329)",
+        "price": "₹329/month",
+        "features": ["24hr Unlimited Calls", "Pan-India Coverage"],
+        "marketingText": "📞 **Talk Non-Stop!** Unlimited local/STD calls on all networks!"
+      }
+    ],
+
+    "dsl": [
+      {
+        "name": "Super Star-I (₹779)",
+        "price": "₹779/month",
+        "speed": "10 Mbps",
+        "data": "779 GB + 2 Mbps beyond",
+        "ott": "Hotstar Premium FREE",
+        "marketingText": "💥 **Stream & Save!** Free Hotstar + 779 GB data!"
+      }
+    ],
+
+    "specialOffers": [
+      {
+        "name": "199 Days Mega Offer",
+        "deal": "Pay 6 Months → Get 199 Days",
+        "applicability": "Plans <₹1000/month",
+        "marketingText": "🎁 **19 EXTRA DAYS FREE!** Enjoy bonus connectivity!"
+      },
+      {
+        "name": "13 Months Power Deal",
+        "deal": "Pay 12 → Get 13 Months",
+        "applicability": "Fibre/Air Fibre Plans",
+        "marketingText": "⏳ **+1 FREE Month!** Perfect for long-term users!"
+      }
+    ],
+
+    "ottAddons": [
+      {
+        "name": "Cinema Plus Pack (₹249)",
+        "content": ["Disney+ Hotstar", "Sony LIV", "Zee5 Premium"],
+        "marketingText": "🍿 **Binge-Watch Heaven!** 7+ OTT platforms in one pack!"
+      }
+    ],
+
+    "installation": {
+      "waiver": "FREE till 31-Mar-2026",
+      "applicableFor": ["FTTH", "Air Fibre", "Landline"],
+      "note": "For individual accounts only"
+    },
+
+    "paymentOptions": {
+      "emi": "Security deposit in 5 installments",
+      "advanceDiscounts": [
+        "Pay 10.5 months → Get 12 months",
+        "Pay 30.5 months → Get 36 months"
+      ]
+    }
+  },
+
+  "metadata": {
+    "validity": "Offers valid till 30-Jun-2025",
+    "gstNote": "All prices exclude GST",
+    "contact": {
+      "website": "https://bookmyFibre.bsnl.co.in",
+      "tollFree": "1800-4444",
+      "whatsapp": "Send 'Hi' to BSNL ChatBot"
+    },
+    "disclaimer": "Terms apply. Plans subject to regional availability."
+  }
+}

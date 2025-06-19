@@ -1,0 +1,574 @@
+{
+  "prepaid_plans": [
+    {
+      "plan_name": "Plan-107",
+      "price": "₹107",
+      "validity": "35 days",
+      "highlights": "Enjoy 200 minutes of any-network calls and 3GB data for uninterrupted browsing!",
+      "benefits": {
+        "voice": "200 min any-network calls",
+        "sms": "Nil",
+        "data": "3GB",
+        "additional": "Unlimited data @40kbps after free limit"      
+      }      
+    },
+    {
+      "plan_name": "Plan-153",
+      "price": "₹153",
+      "validity": "26 days",
+      "highlights": "Unlimited calls + 100 SMS/day + 26GB high-speed data! Perfect for heavy users.",
+      "benefits": {
+        "voice": "Unlimited any-network calls",
+        "sms": "100/day",
+        "data": "26GB",
+        "additional": "Unlimited data @40kbps after free limit" 
+      },
+      "call_rates": {
+        "local": "₹1/min",
+        "std": "₹1.3/min",
+        "roaming": "₹1.15/min"
+      }
+    },
+    {
+      "plan_name": "Plan-199",
+      "price": "₹199",
+      "validity": "30 days",
+      "highlights": "30 days of unlimited calls, 100 SMS/day, and 2GB/day data",
+      "benefits": {
+        "voice": "Unlimited any-network calls",
+        "sms": "100/day",
+        "data": "2GB/day",
+        "additional": "Unlimited data @40kbps after free limit"
+      }      
+    },
+    {
+      "plan_name": "Plan-229",
+      "price": "₹229",
+      "validity": "1 Month",
+      "highlights": "1 Month unlimited calls, 100 SMS/day & 2GB/day data",
+      "benefits": {
+        "voice": "Unlimited any-network calls",
+        "sms": "100/day",
+        "data": "2GB/day",
+        "additional": "Unlimited data @40kbps after free limit"
+      }      
+    },
+    {
+      "plan_name": "Plan-249",
+      "price": "₹249",
+      "validity": "45 days",
+      "highlights": "New Connections only. 45 days of unlimited calls, 100 SMS/day, and 2GB/day data - Great value!",
+      "benefits": {
+        "voice": "Unlimited any-network calls",
+        "sms": "100/day",
+        "data": "2GB/day",
+        "additional": "Unlimited data @40kbps after free limit"
+      }
+    },    
+    {
+      "plan_name": "Plan-897",
+      "price": "₹897",
+      "validity": "180 days",
+      "highlights": "180days unlimited calls, 100 SMS/day & 90GB high-speed data",
+      "benefits": {
+        "voice": "Unlimited any-network calls",
+        "sms": "100/day",
+        "data": "90GB",
+        "additional": "Unlimited data @40kbps after free limit"
+      }
+    },
+    {
+      "plan_name": "Plan-997",
+      "price": "₹997",
+      "validity": "160 days",
+      "highlights": "160 days pack! Unlimited calls, 100 SMS/day & 2GB/day data for 160 days.",
+      "benefits": {
+        "voice": "Unlimited calls",
+        "sms": "100/day",
+        "data": "2GB/day",
+        "additional": "Unlimited data @40kbps after free limit"
+      }
+    },    
+    {
+      "plan_name": "Plan-1499",
+      "price": "₹1499",
+      "validity": "336 days",
+      "highlights": "Almost year-long unlimited calls, 100 SMS/day & 24GB data",
+      "benefits": {
+        "voice": "Unlimited any-network calls",
+        "sms": "100/day",
+        "data": "24GB",
+        "additional": "Unlimited data @40kbps after free limit"
+      }
+    },
+    {
+      "plan_name": "Plan-1999",
+      "price": "₹1999",
+      "validity": "365 days",
+      "highlights": "Year-long unlimited calls, 100 SMS/day & 600GB high-speed data! Best annual deal.",
+      "benefits": {
+        "voice": "Unlimited calls",
+        "sms": "100/day",
+        "data": "600GB",
+        "additional": "Unlimited data @40kbps after free limit"
+      }
+    },
+    {
+      "plan_name": "Plan-2399",
+      "price": "₹2399",
+      "validity": "395 days",
+      "highlights": "Extended year plan with unlimited calls, 100 SMS/day & 2GB/day data",
+      "benefits": {
+        "voice": "Unlimited calls",
+        "sms": "100/day",
+        "data": "2GB/day",
+        "additional": "Unlimited data @40kbps after free limit"
+      }
+    }
+  ],
+  "special_tariff_vouchers": [
+    {
+      "stv_name": "Voice STV 44",
+      "price": "₹44",
+      "validity": "26 days",
+      "highlights": "Local calls at 1.2p/2s with 26 days validity",
+      "benefits": {
+        "call_rates": "1.2p/2s (All Local)"
+      }
+    },
+    {
+      "stv_name": "Voice STV 99",
+      "price": "₹99",
+      "validity": "17 days",
+      "highlights": "17 days truly unlimited local/STD calls + 50MB data",
+      "benefits": {
+        "voice": "Unlimited Voice Calls - Local & STD, incl. roaming",
+        "data": "50MB"
+      }
+    },
+    {
+      "stv_name": "Voice STV 143",
+      "price": "₹143",
+      "validity": "30 days",
+      "highlights": "500 minutes any-network calls + 2GB data",
+      "benefits": {
+        "voice": "500 minutes Anynet",
+        "data": "2GB",
+        "call_rates": "Local/STD @10p/min"
+      }
+    },
+    {
+      "stv_name": "Voice STV 147",
+      "price": "₹147",
+      "validity": "30 days",
+      "highlights": "30 days unlimited calls + 10GB data",
+      "benefits": {
+        "voice": "Unlimited Voice Calls - Local & STD, incl. roaming",
+        "data": "10GB"
+      }
+    },
+    {
+      "stv_name": "Voice STV 247",
+      "price": "₹247",
+      "validity": "30 days",
+      "highlights": "30 days unlimited calls + 100 SMS/day + 50GB data",
+      "benefits": {
+        "voice": "Unlimited Voice Calls - Local & STD, incl. roaming",
+        "sms": "100/day",
+        "data": "50GB"
+      }
+    },
+    {
+      "stv_name": "Voice STV 299",
+      "price": "₹299",
+      "validity": "30 days",
+      "highlights": "30 days unlimited calls + 100 SMS/day + 3GB/day data",
+      "benefits": {
+        "voice": "Unlimited Voice Calls - Local & STD, incl. roaming",
+        "sms": "100/day",
+        "data": "3GB/day"
+      }
+    },
+    {
+      "stv_name": "Voice STV 319",
+      "price": "₹319",
+      "validity": "65 days",
+      "highlights": "65 days unlimited calls + 300 SMS + 10GB data",
+      "benefits": {
+        "voice": "Unlimited Voice Calls - Local & STD, incl. roaming",
+        "sms": "300 SMS",
+        "data": "10GB"
+      }
+    },
+    {
+      "stv_name": "Voice STV 439",
+      "price": "₹439",
+      "validity": "90 days",
+      "highlights": "90 days unlimited calls + 300 SMS",
+      "benefits": {
+        "voice": "Unlimited Voice Calls - Local & STD, incl. roaming",
+        "sms": "300 SMS"
+      }
+    },
+    {
+      "stv_name": "Voice STV 485",
+      "price": "₹485",
+      "validity": "80 days",
+      "highlights": "80 days unlimited calls + 100 SMS/day + 2GB/day data",
+      "benefits": {
+        "voice": "Unlimited Voice Calls - Local & STD, incl. roaming",
+        "sms": "100/day",
+        "data": "2GB/day"
+      }
+    },
+    {
+      "stv_name": "Voice STV 599",
+      "price": "₹599",
+      "validity": "84 days",
+      "highlights": "84 days unlimited calls + 100 SMS/day + 3GB/day data",
+      "benefits": {
+        "voice": "Unlimited Voice Calls - Local & STD, incl. roaming",
+        "sms": "100/day",
+        "data": "3GB/day"
+      }
+    },
+    {
+      "stv_name": "Data STV 16",
+      "price": "₹16",
+      "validity": "1 day",
+      "highlights": "2GB high-speed data for 1 day",
+      "benefits": {
+        "data": "2GB"
+      }
+    },
+    {
+      "stv_name": "Data STV 58",
+      "price": "₹58",
+      "validity": "7 days",
+      "highlights": "2GB/day data for 7 days",
+      "benefits": {
+        "data": "2GB/day"
+      }
+    },
+    {
+      "stv_name": "Data STV 198",
+      "price": "₹198",
+      "validity": "40 days",
+      "highlights": "2GB/day data for 40 days",
+      "benefits": {
+        "data": "2GB/day"
+      }
+    },
+    {
+      "stv_name": "Data STV 411",
+      "price": "₹411",
+      "validity": "90 days",
+      "highlights": "2GB/day data for 90 days",
+      "benefits": {
+        "data": "2GB/day"
+      }
+    },
+    {
+      "stv_name": "Data STV 1515",
+      "price": "₹1515",
+      "validity": "365 days",
+      "highlights": "2GB/day data for full year",
+      "benefits": {
+        "data": "2GB/day"
+      }
+    },
+    {
+      "stv_name": "GP2 STV 1199",
+      "price": "₹1199",
+      "validity": "336 days",
+      "highlights": "336 days unlimited calls + 100 SMS/day + 24GB data",
+      "benefits": {
+        "voice": "Unlimited Voice Calls - Local & STD, incl. roaming",
+        "sms": "100/day",
+        "data": "24GB"
+      }
+    },
+    {
+      "stv_name": "VAS STV 15",
+      "price": "₹15",
+      "validity": "3 days",
+      "highlights": "5 minutes free IVR content from Techgrace Solutions",
+      "benefits": {
+        "vas": "M/s Techgrace Solutions Pvt Ltd.content free 5 minutes on IVR"
+      }
+    },
+    {
+      "stv_name": "VAS STV 23",
+      "price": "₹23",
+      "validity": "30 days",
+      "highlights": "23 minutes IVR consultation from UBARRI",
+      "benefits": {
+        "vas": "23 minutes of consultation on IVR through M/s UBARRI"
+      }
+    },
+    {
+      "stv_name": "VAS STV 31",
+      "price": "₹31",
+      "validity": "30 days",
+      "highlights": "31 minutes IVR consultation from UBARRI",
+      "benefits": {
+        "vas": "31 minutes of consultation on IVR through M/s UBARRI"
+      }
+    },
+    {
+      "stv_name": "VAS STV 36",
+      "price": "₹36",
+      "validity": "30 days",
+      "highlights": "Cricket score alerts + News/Jokes/Shayari SMS",
+      "benefits": {
+        "vas": "Unlimited SMS score alerts for on-going Cricket match along with News Jokes Love and Shayari sms content"
+      }
+    },
+    {
+      "stv_name": "VAS STV 45",
+      "price": "₹45",
+      "validity": "15 days",
+      "highlights": "20 minutes free IVR content from Techgrace Solutions",
+      "benefits": {
+        "vas": "M/s Techgrace Solutions Pvt Ltd.content free 20 minutes on IVR"
+      }
+    },
+    {
+      "stv_name": "VAS STV 81",
+      "price": "₹81",
+      "validity": "30 days",
+      "highlights": "81 minutes IVR consultation from UBARRI",
+      "benefits": {
+        "vas": "81 minutes of consultation on IVR through M/s UBARRI"
+      }
+    },
+    {
+      "stv_name": "VAS STV 85",
+      "price": "₹85",
+      "validity": "30 days",
+      "highlights": "45 minutes free IVR content from Techgrace Solutions",
+      "benefits": {
+        "vas": "M/s Techgrace Solutions Pvt Ltd.content free 45 minutes on IVR"
+      }
+    },
+    {
+      "stv_name": "VAS STV 228",
+      "price": "₹228",
+      "validity": "30 days",
+      "highlights": "30 days unlimited calls + 100 SMS/day + 2GB/day data",
+      "benefits": {
+        "voice": "Unlimited Voice Calls - Local & STD, incl. roaming",
+        "sms": "100/day",
+        "data": "2GB/day"
+      }
+    },
+    {
+      "stv_name": "VAS STV 239",
+      "price": "₹239",
+      "validity": "30 days",
+      "highlights": "30 days unlimited calls + 100 SMS/day + 2GB/day data",
+      "benefits": {
+        "voice": "Unlimited Voice Calls - Local & STD, incl. roaming",
+        "sms": "100/day",
+        "data": "2GB/day"
+      }
+    },
+    {
+      "stv_name": "VAS STV 347",
+      "price": "₹347",
+      "validity": "54 days",
+      "highlights": "54 days unlimited calls + 100 SMS/day + 2GB/day data",
+      "benefits": {
+        "voice": "Unlimited Voice Calls - Local & STD, incl. roaming",
+        "sms": "100/day",
+        "data": "2GB/day"
+      }
+    },
+    {
+      "stv_name": "ISD Activation 57",
+      "price": "₹57",
+      "validity": "30 days",
+      "highlights": "Activate international roaming for 30 days",
+      "benefits": {
+        "activation": "Pre-paid International roaming Facility"
+      }
+    },
+    {
+      "stv_name": "ISD Activation 167",
+      "price": "₹167",
+      "validity": "90 days",
+      "highlights": "Activate international roaming for 90 days",
+      "benefits": {
+        "activation": "Pre-paid International roaming Facility"
+      }
+    },
+    {
+      "stv_name": "IR STV 279",
+      "price": "₹279",
+      "validity": "28 days",
+      "highlights": "Singapore (Starhub) roaming: 30mins incoming calls",
+      "benefits": {
+        "voice": "30mins incoming",
+        "countries": "Singapore (Starhub only)"
+      }
+    },
+    {
+      "stv_name": "IR STV 2199",
+      "price": "₹2199",
+      "validity": "28 days",
+      "highlights": "UAE roaming: 120mins incoming, 200mins outgoing & 1GB data",
+      "benefits": {
+        "voice": "120mins incoming, 200mins outgoing to India",
+        "data": "1GB",
+        "countries": "UAE"
+      }
+    },
+    {
+      "stv_name": "IR STV 705",
+      "price": "₹705",
+      "validity": "1 day",
+      "highlights": "Mauritius (MTML) roaming: 30mins calls + 200MB data + 5 SMS",
+      "benefits": {
+        "voice": "Total 30mins",
+        "data": "200MB",
+        "sms": "5",
+        "countries": "Mauritius (MTML only)"
+      }
+    },
+    {
+      "stv_name": "IR STV 4865",
+      "price": "₹4865",
+      "validity": "28 days",
+      "highlights": "Bhutan (B-Mobile) roaming: 260mins calls + 1GB data + 100 SMS",
+      "benefits": {
+        "voice": "Total 260mins",
+        "data": "1GB",
+        "sms": "100",
+        "countries": "Bhutan (B-Mobile only)"
+      }
+    },
+    {
+      "stv_name": "IR STV 1359",
+      "price": "₹1359",
+      "validity": "3 days",
+      "highlights": "Srilanka/Canada/Iceland roaming: 30mins incoming, 60mins outgoing",
+      "benefits": {
+        "voice": "30mins incoming, 60mins outgoing to India",
+        "data": "100MB",
+        "countries": "Srilanka, Canada, Iceland"
+      }
+    },
+    {
+      "stv_name": "IR STV 1799",
+      "price": "₹1799",
+      "validity": "7 days",
+      "highlights": "Multi-country roaming: 10mins voice, 5 SMS, 1GB data",
+      "benefits": {
+        "voice": "10 mins",
+        "sms": "5",
+        "data": "1GB",
+        "countries": "Bhutan,Greece,Malaysia,Austria,China,Vietnam,Nepal,Sri Lanka,Germany,Israel,Bangladesh,Myanmar,Kuwait,Thailand,Denmark,Uzbekistan,France,Japan"
+      }
+    },
+    {
+      "stv_name": "IR STV 3599",
+      "price": "₹3599",
+      "validity": "14 days",
+      "highlights": "Multi-country roaming: 20mins voice, 10 SMS, 2GB data",
+      "benefits": {
+        "voice": "20 mins",
+        "sms": "10",
+        "data": "2GB",
+        "countries": "Bhutan,Greece,Malaysia,Austria,China,Vietnam,Nepal,Sri Lanka,Germany,Israel,Bangladesh,Myanmar,Kuwait,Thailand,Denmark,Uzbekistan,France,Japan"
+      }
+    },
+    {
+      "stv_name": "IR STV 5399",
+      "price": "₹5399",
+      "validity": "30 days",
+      "highlights": "Multi-country roaming: 30mins voice, 15 SMS, 3GB data",
+      "benefits": {
+        "voice": "30 mins",
+        "sms": "15",
+        "data": "3GB",
+        "countries": "Bhutan,Greece,Malaysia,Austria,China,Vietnam,Nepal,Sri Lanka,Germany,Israel,Bangladesh,Myanmar,Kuwait,Thailand,Denmark,Uzbekistan,France,Japan"
+      }
+    }
+  ],
+  "postpaid_plans": [
+    {
+      "plan_name": "Plan-199",
+      "price": "₹199",
+      "monthly_charge": "₹199",
+      "validity": "30 days",
+      "highlights": "Basic postpaid with 25GB data + unlimited calls! Great for light users.",
+      "benefits": {
+        "voice": "Unlimited any-network calls",
+        "sms": "100sms/day",
+        "data": "25GB (rollover up to 75GB)",
+	      "family": "Nil"
+      }
+    },
+    {
+      "plan_name": "Ghar Wapsi-399",
+      "monthly_charge": "₹399",
+      "price": "₹399",
+      "validity": "30 days",
+      "highlights": "Welcome back to BSNL! 70GB data + unlimited calls + 1 family connection.",
+      "benefits": {
+        "voice": "Unlimited any-network calls",
+        "sms": "100sms/day",
+        "data": "70GB (rollover up to 210GB)",
+        "family": "Nil"
+      }
+    },
+    {
+      "plan_name": "Plan-525",
+      "monthly_charge": "₹525",
+      "price": "₹525",
+      "validity": "30 days",
+      "highlights": "Premium experience + 85GB data + unlimited calls + 1 family connection.",
+      "benefits": {
+        "voice": "Unlimited any-network calls",
+        "sms": "100sms/day",
+        "data": "85GB (rollover up to 255GB)",
+        "family": "1 connection with Unlimited Voice facility + 30GB data + 20 SMS/day"
+      }
+    },
+    {
+      "plan_name": "Plan-798",
+      "monthly_charge": "₹798",
+      "price": "₹798",
+      "validity": "30 days",
+      "highlights": "Premium experience + 50GB data + unlimited calls + 2 family connection.",
+      "benefits": {
+        "voice": "Unlimited any-network calls",
+        "sms": "100sms/day",
+        "data": "50GB (rollover up to 150GB)",
+        "family": "2 connection with Unlimited Voice facility + 50GB data + 100 SMS/day each"
+      }
+    },
+
+
+    {
+      "plan_name": "Plan-999",
+      "monthly_charge": "₹999",
+      "price": "₹999",
+      "validity": "30 days",
+      "highlights": "Premium experience + 75GB data + unlimited calls + 3 family connections.",
+      "benefits": {
+        "voice": "Unlimited any-network calls",
+        "sms": "100sms/day",
+        "data": "75GB (rollover up to 225GB)",
+        "family": "3 connections with unlimited voice + 75GB data + 100 SMS/day each"
+      }
+    }
+  ],
+  "disclaimers": [
+    "All unlimited voice benefits exclude premium/IN/international numbers",
+    "Free SMS cannot be used for premium/IN/international numbers",
+    "After high-speed data limit, speed reduces to 40kbps",
+    "BSNL reserves the right to discontinue service in case of misuse",
+    "Offers valid as of 20th May 2025 and subject to change"
+  ]
+}

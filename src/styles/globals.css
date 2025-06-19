@@ -1,0 +1,36 @@
+/* src/styles/globals.css */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+
+/* Optional: Add any custom base styles here */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glassmorphism-element {
+  background-color: rgba(255, 255, 255, 0.15); 
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  border-radius: 10px; 
+}
+
+/* Define font variable if you used it in layout.tsx */
+:root {
+  --font-inter: 'Inter', sans-serif; /* Fallback font */
+}
+
+/* Apply the font variable */
+/* If you defined variable in layout.tsx's html tag, this might not be needed */
+/* body {
+  font-family: var(--font-inter);
+} */
