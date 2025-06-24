@@ -34,7 +34,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
       url: `https://yourdomain.com/blog/${postData.slug}`,
       images: [
         {
-          url: postData.coverImage || 'https://teledhamaka.com/public/assets/hero-enterprise.webp',
+          url: postData.coverImage || 'https://yourdomain.com/images/default-blog-cover.jpg',
           alt: postData.title,
         },
       ],
@@ -43,13 +43,13 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
       card: 'summary_large_image',
       title: postData.title,
       description: postData.excerpt,
-      images: [postData.coverImage || 'https://teledhamaka.com/public/assets/hero-enterprise.webp'],
+      images: [postData.coverImage || 'https://yourdomain.com/images/default-blog-cover.jpg'],
     },
   };
 }
 
 export default async function PostPage(props: { params: Promise<{ slug: string }> }) {
-  const { slug } = await props.params;
+  const { slug } = await props.params; // Await the promise
   const postData: FullPostData | null = await getPostDataBySlug(slug);
 
   if (!postData) {
@@ -118,46 +118,33 @@ export default async function PostPage(props: { params: Promise<{ slug: string }
               h5: (props) => <h5 className="text-lg font-semibold mt-4 mb-1" {...props} />,
               h6: (props) => <h6 className="text-base font-semibold mt-3 mb-1" {...props} />,
               
-              p: ({ node, ...props }) => {
-                // Check if the paragraph contains any block-level elements
-                const hasBlockLevel = node?.children?.some(
-                  (child: any) => child.type === 'element' && 
-                  ['div', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'ul', 'ol', 'li', 'table', 'img'].includes(child.tagName)
-                );
-                
-                if (hasBlockLevel) {
-                  return <div className="text-gray-800 leading-relaxed my-4" {...props} />;
-                }
-                return <p className="text-gray-800 leading-relaxed my-4" {...props} />;
-              },
+              p: (props) => <p className="text-gray-800 leading-relaxed my-4" {...props} />,
               
               ul: (props) => <ul className="list-disc list-inside ml-4 my-4" {...props} />,
               ol: (props) => <ol className="list-decimal list-inside ml-4 my-4" {...props} />,
               li: (props) => <li className="mb-1" {...props} />,
               a: (props) => <a className="text-blue-600 hover:underline" {...props} />,
-              img: ({ src, alt = '' }) => {
+              img: ({ src, alt = ''}) => {
                 const imageSrc = typeof src === 'string' ? src : '';
-                return (
-                  <div className="my-6">
-                    {imageSrc && (
-                      <div className="relative w-full h-64 sm:h-80 md:h-96">
-                        <Image
-                          src={imageSrc}
-                          alt={alt}
-                          fill
-                          style={{ objectFit: 'cover' }}
-                          className="rounded-lg shadow-md"
-                        />
-                      </div>
-                    )}
-                  </div>
-                );
-              },
+               return (
+                <div className="my-6">
+                  {imageSrc && (
+                  <div className="relative w-full h-64 sm:h-80 md:h-96">
+                   <Image
+                     src={imageSrc}
+                     alt={alt}
+                     fill
+                     style={{ objectFit: 'cover' }}
+                    className="rounded-lg shadow-md"
+                  />
+              </div>
+           )}
+         </div>
+       );
+      },
               table: (props) => <table className="w-full text-left border-collapse my-6" {...props} />,
               th: (props) => <th className="p-3 border border-gray-300 bg-gray-100 font-semibold" {...props} />,
               td: (props) => <td className="p-3 border border-gray-300" {...props} />,
-              blockquote: (props) => <blockquote className="border-l-4 border-gray-300 pl-4 italic my-4" {...props} />,
-              hr: (props) => <hr className="my-8 border-gray-200" {...props} />,
             }}
           >
             {postData.rawMarkdownContent}
