@@ -118,7 +118,7 @@ export default async function PostPage(props: { params: Promise<{ slug: string }
               h5: (props) => <h5 className="text-lg font-semibold mt-4 mb-1" {...props} />,
               h6: (props) => <h6 className="text-base font-semibold mt-3 mb-1" {...props} />,
               
-              p: (props) => <p className="text-gray-800 leading-relaxed my-4" {...props} />,
+              p: (props) => <div className="text-gray-800 leading-relaxed my-4" {...props} />,
               
               ul: (props) => <ul className="list-disc list-inside ml-4 my-4" {...props} />,
               ol: (props) => <ol className="list-decimal list-inside ml-4 my-4" {...props} />,
