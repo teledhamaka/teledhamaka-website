@@ -8,7 +8,7 @@ author: Telecom Expert
 coverImage: /assets/bsnl-bitv-ott.webp
 tags: ["BSNL BiTV", "Internet TV", "Free Live TV", "BSNL Mobile", "OTTplay", "Direct-to-Mobile TV"]
 keywords: ["BSNL BiTV free", "BSNL live TV app", "OTTplay BSNL", "BSNL entertainment"]
-category: mobile
+category: ["broadband", "mobile"]
 excerpt: "Discover BSNL BiTV, the game-changing Internet TV service that offers over 450 live TV channels and select OTT content for free to all BSNL mobile users."
 ---
 

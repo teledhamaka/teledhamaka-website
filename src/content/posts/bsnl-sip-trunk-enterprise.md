@@ -9,7 +9,7 @@ author: BSNL Business Team
 coverImage: /assets/bsnl-sip-trunk-cover.webp
 tags: ["BSNL SIP Trunk", "Enterprise Communication", "Business Phone System", "Cloud Telephony", "SIP Solutions", "Scalable VoIP", "Business VoIP"]
 keywords: ["BSNL business SIP", "SIP trunk benefits", "Enterprise voice solution", "Cloud-based telephony", "Business call scaling", "BSNL enterprise services"]
-category: business-communication
+category: enterprise
 excerpt: "Discover how BSNL's SIP Trunk service helps enterprises replace traditional phone lines with flexible, scalable cloud-based communication."
 ---
 

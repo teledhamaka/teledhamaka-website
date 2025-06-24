@@ -103,7 +103,7 @@
         "free_ott": "Subscriber can opt either of the packs: Pack-I: Disney Hot Star Super plan, Hungama, Lionsgate, ShemarooMe, Epicon; Pack-II: Yupp TV Pack (Zee5premium, SonyLiv Premium, YuppTV)"
       },
       {
-        "plan_name": "Fibre TP Plan",
+        "plan_name": "Fibre TB Plan",
         "fmc": "Rs.799",
         "marketing_text": "Experience blazing fast speeds with Fibre TP Plan! Get 150 Mbps for heavy usage. Pure internet power!",
         "download_speed": "Up to 150 Mbps till 4000 GB/month, up to 10 Mbps beyond",
@@ -212,48 +212,6 @@
         "free_calls": "Local + STD unlimited on any network",
         "plan_applicability": "Landline(Copper) Customers with less than Rs.199 are allowed to migrate into this plan (i.e. Super Value CUL (FMC Rs.149/-))",
         "bandwidth": "1 GB with up to 25 Mbps"
-      }
-    ]
-  },
-  {
-    "plan_type": "DSL Broadband Plans",
-    "applicability": "All SSAs of MP Circle",
-    "note": "24 hrs unlimited free calling (Local+ STD) on any network within India is available for most plans. For registration, SMS BB to 54141 (BSNL mobile) or 9400054141 (other mobile). GST will be charged Extra. T&C apply. Updated as on 21-Apr-2025.",
-    "plans": [
-      {
-        "plan_name": "100 GB CUL",
-        "fmc": "Rs. 299 for first six month, Plan shall be converted to 200 GB CUL Plan after six months",
-        "marketing_text": "Start strong with 100 GB CUL! Enjoy high-speed data and unlimited calling for the first six months. Your ideal entry into broadband!",
-        "download_speed": "Up to 10 Mbps till 100 GB, Up to 2 Mbps beyond",
-        "remark": "24 hrs unlimited free calling (Local+STD) on any network within India"
-      },
-      {
-        "plan_name": "200 GB CUL",
-        "fmc": "Rs. 399",
-        "marketing_text": "More data, more freedom with 200 GB CUL! Unlimited calling and ample data for your daily needs. Reliable connectivity for your home!",
-        "download_speed": "Up to 10 Mbps till 200GB, Up to 2 Mbps beyond",
-        "remark": "24 hrs unlimited free calling (Local+STD) on any network within India"
-      },
-      {
-        "plan_name": "500 GB CUL",
-        "fmc": "Rs. 555",
-        "marketing_text": "Go big with 500 GB CUL! Enjoy vast data and unlimited calling. Perfect for heavy internet users and multiple devices!",
-        "download_speed": "Up to 10 Mbps till 500GB, Up to 2 Mbps beyond",
-        "remark": "24 hrs unlimited free calling (Local+STD) on any network within India"
-      },
-      {
-        "plan_name": "Super Star-l",
-        "fmc": "Rs. 779",
-        "marketing_text": "Be a Super Star with this plan! High-speed data, unlimited calling, and a free Hot Star Premium pack. Your complete entertainment solution!",
-        "download_speed": "Up to 10 Mbps till 779GB, up to 2 Mbps beyond",
-        "remark": "24 hrs unlimited free calling (Local+STD) on any network within India, Hot Star Premium pack free"
-      },
-      {
-        "plan_name": "1600 GB CUL",
-        "fmc": "Rs. 1299",
-        "marketing_text": "Unleash massive data with 1600 GB CUL! High speeds and unlimited calling for the most demanding internet users. Unlimited possibilities!",
-        "download_speed": "Up to 10 Mbps till 1600GB, up to 5 Mbps beyond",
-        "remark": "24 hrs unlimited free calling (Local+STD) on any network within India"
       }
     ]
   },

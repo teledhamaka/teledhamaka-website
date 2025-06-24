@@ -6,7 +6,7 @@ metaDescription: "Discover BSNL's Fibre Basic 499 plan: high-speed internet, unl
 date: 2025-06-04
 author: Telecom Expert
 coverImage: /assets/bsnl-fibre-basic-499-cover.webp
-tags: ["BSNL FTTH", "Fibre Basic 499", "Affordable Broadband", "High-Speed Internet", "Home Internet India"]
+tags: ["BSNL FTTH","BSNL Fibre to the Home", "Fibre Basic 499", "Affordable Broadband", "High-Speed Internet", "Home Internet India"]
 keywords: ["BSNL Fibre Basic 499 review", "BSNL FTTH plans", "best broadband plan under 500", "fiber internet BSNL", "ONT BSNL"]
 category: broadband
 excerpt: "Looking for a budget-friendly fiber internet plan? The BSNL Fibre Basic 499 offers excellent speed and unlimited calls, making it ideal for everyday home use."

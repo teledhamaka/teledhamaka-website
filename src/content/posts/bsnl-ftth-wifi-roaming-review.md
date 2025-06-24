@@ -8,7 +8,7 @@ author: Telecom Expert
 coverImage: /assets/bsnl-wifi-roaming.webp # Placeholder, user might need to create this image
 tags: ["BSNL FTTH", "Wi-Fi Roaming", "Free Wi-Fi", "BSNL Hotspots", "National Connectivity", "High-Speed Internet", "Telecom India"]
 keywords: ["BSNL Wi-Fi roaming for fiber customers", "Free internet BSNL FTTH", "BSNL public Wi-Fi", "Connect BSNL hotspots", "BSNL roaming Wi-Fi activation"]
-category: broadband
+category: ["broadband", "technical"]
 excerpt: "Your BSNL Fiber connection just got an incredible upgrade! Learn how BSNL's new National Wi-Fi Roaming service lets you enjoy free, high-speed internet at hotspots across India, making your connectivity truly limitless."
 ---
 

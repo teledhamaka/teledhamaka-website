@@ -9,7 +9,7 @@ function SpeedTestWidget() {
   const [testPhase, setTestPhase] = useState<string | null>(null);
 
   const downloadTestUrl = 'https://speed.cloudflare.com/__down?bytes=1000000'; // ~10MB
-  const uploadTestDataSize = 500000; // ~5MB
+  const uploadTestDataSize = 1000000; // ~5MB
 
   const testDownloadSpeed = async () => {
     setTestPhase('download');
@@ -52,7 +52,7 @@ function SpeedTestWidget() {
     setTestPhase('ping');
     let totalPing = 0;
     let successfulPings = 0;
-    const pingAttempts = 5;
+    const pingAttempts = 20;
     const pingUrl = 'https://speed.cloudflare.com';
 
     for (let i = 0; i < pingAttempts; i++) {

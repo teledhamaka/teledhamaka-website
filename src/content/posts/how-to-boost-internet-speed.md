@@ -9,7 +9,7 @@ author: Tech Guru
 coverImage: /assets/hero-broadband.webp
 tags: ["Internet speed", "Wi-Fi boost", "Slow internet fix", "Broadband optimization", "Network tips", "Tech guide", "Router settings", "Online productivity"]
 keywords: ["Boost internet speed", "Increase Wi-Fi speed", "Fix slow internet", "Optimize internet", "Faster internet connection", "Internet troubleshooting", "Router setup", "DNS server", "Ethernet connection"]
-category: tech-guides
+category: ["broadband","technical"]
 excerpt: "Tired of buffering and slow loading times? Discover proven strategies to significantly boost your internet speed and enjoy a smoother online experience."
 ---
 

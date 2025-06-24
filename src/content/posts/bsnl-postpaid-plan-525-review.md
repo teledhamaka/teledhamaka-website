@@ -7,7 +7,7 @@ date: 2025-05-11
 author: Telecom Expert
 coverImage: /assets/hero-mobile.webp
 tags: ["BSNL Postpaid Plan 525", "Unlimited calling plans", "High data mobile plans", "BSNL family postpaid", "Affordable postpaid plans 2025"]
-keywords: ["BSNL 85GB plan", "Best postpaid plan India", "Unlimited calls plan", "BSNL data rollover"]
+keywords: ["BSNL 85GB plan", "BSNL Family Plan", "Best postpaid plan India", "Unlimited calls plan", "BSNL data rollover"]
 category: mobile
 excerpt: "Discover why BSNL's Plan-525 is perfect for heavy data users with 85GB data + unlimited calls at just ₹525/month."
 ---

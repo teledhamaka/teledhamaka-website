@@ -16,15 +16,15 @@ interface IndividualPlanJson {
   first_month_offer?: string;
   monthly_discount_after_1st_month?: string;
   free_calling?: string;
+  free_ott?: string;
   bandwidth?: string;
   bandwidth_for_wifi_customers?: string;
   bandwidth_for_bsnl_pdo_usage?: string;
   free_calls?: string;
-  ott?: string | string[];
   features?: string[];
   remark?: string;
   validity?: string;
-  [key: string]: string | string[] | undefined; // Allow other properties
+  [key: string]: string | string[] | undefined;
 }
 
 // Interface for each plan category
@@ -35,7 +35,7 @@ interface BSNLPlanCategoryJson {
   note?: string;
   note_offer?: string;
   plans?: IndividualPlanJson[];
-  [key: string]: string | string[] | IndividualPlanJson[] | undefined; // Allow other properties
+  [key: string]: string | string[] | IndividualPlanJson[] | undefined;
 }
 
 // Import the raw JSON data
@@ -67,6 +67,7 @@ interface Plan {
   tv: boolean;
   marketingText?: string;
   category: string;
+  isComplete: boolean;
 }
 
 const BroadbandPlansPage = () => {
@@ -86,7 +87,7 @@ const BroadbandPlansPage = () => {
       let idCounter = 1;
 
       const hasOtt = (plan: IndividualPlanJson): boolean => {
-        const ottContent = plan.ott;
+        const ottContent = plan.free_ott;
         if (!ottContent) return false;
         
         if (typeof ottContent === 'string') {
@@ -95,34 +96,17 @@ const BroadbandPlansPage = () => {
                  ottContent.toLowerCase().includes("zee5") ||
                  ottContent.toLowerCase().includes("ott");
         }
-        
-        if (Array.isArray(ottContent)) {
-          return ottContent.some(content => 
-            content.toLowerCase().includes("hotstar") || 
-            content.toLowerCase().includes("sony liv") || 
-            content.toLowerCase().includes("zee5")
-          );
-        }
-        
         return false;
       };
 
       const hasTv = (plan: IndividualPlanJson): boolean => {
-        const ottContent = plan.ott;
+        const ottContent = plan.free_ott;
         if (!ottContent) return false;
         
         if (typeof ottContent === 'string') {
           return ottContent.toLowerCase().includes("live tv") || 
                  ottContent.toLowerCase().includes("yupptv");
         }
-        
-        if (Array.isArray(ottContent)) {
-          return ottContent.some(content => 
-            content.toLowerCase().includes("live tv") || 
-            content.toLowerCase().includes("yupptv")
-          );
-        }
-        
         return false;
       };
 
@@ -149,6 +133,11 @@ const BroadbandPlansPage = () => {
         if (!category.plans) return;
 
         category.plans.forEach((plan) => {
+          // Skip incomplete plans
+          if (!plan.plan_name || !plan.fmc || !plan.download_speed) {
+            return;
+          }
+
           const features: string[] = [];
           
           // Add calling features
@@ -171,24 +160,42 @@ const BroadbandPlansPage = () => {
             features.push("Free Installation");
           }
 
+          // Special handling for Fibre Entry Quarterly and Half Yearly plans
+          if (plan.plan_name === "Fibre Entry Quarterly") {
+            features.push("Only for Rural New Customers");
+          } else if (plan.plan_name === "Fibre Entry Half Yearly") {
+            features.push("Only for Individual Rural Customers");
+          }
+
           // Determine if popular (simple heuristic)
           const isPopular = plan.plan_name?.includes("Basic") || 
                            plan.plan_name?.includes("Premium") || 
                            plan.plan_name?.includes("Plus");
 
-          processedPlans.push({
-            id: idCounter++,
-            name: plan.plan_name || "BSNL Plan",
-            speed: extractSpeed(plan.download_speed || plan.bandwidth),
-            data: extractData(plan.download_speed?.split(' till ')[1] || plan.bandwidth),
-            price: extractPrice(plan.fmc),
-            popular: isPopular || false,
-            features,
-            ott: hasOtt(plan),
-            tv: hasTv(plan),
-            marketingText: plan.marketing_text,
-            category: category.plan_type
-          });
+          const speed = extractSpeed(plan.download_speed || plan.bandwidth);
+          const data = extractData(plan.download_speed?.split(' till ')[1] || plan.bandwidth);
+          const price = extractPrice(plan.fmc);
+
+          // Check if the plan is complete
+          const isComplete = !!plan.plan_name && !!plan.fmc && !!plan.download_speed && 
+                            speed !== "N/A" && data !== "Unlimited" && price > 0;
+
+          if (isComplete) {
+            processedPlans.push({
+              id: idCounter++,
+              name: plan.plan_name,
+              speed,
+              data,
+              price,
+              popular: isPopular || false,
+              features,
+              ott: hasOtt(plan),
+              tv: hasTv(plan),
+              marketingText: plan.marketing_text,
+              category: category.plan_type,
+              isComplete
+            });
+          }
         });
       });
 
@@ -205,33 +212,35 @@ const BroadbandPlansPage = () => {
     }
   };
 
-  // Filtered plans
-  const filteredPlans = plans.filter(plan => {
-    const getNumericSpeed = (speedStr: string): number => {
-      const match = speedStr.match(/(\d+)\s*Mbps/i);
-      return match ? parseInt(match[1]) : 0;
-    };
+  // Filtered plans - only show complete plans
+  const filteredPlans = plans
+    .filter(plan => plan.isComplete)
+    .filter(plan => {
+      const getNumericSpeed = (speedStr: string): number => {
+        const match = speedStr.match(/(\d+)\s*Mbps/i);
+        return match ? parseInt(match[1]) : 0;
+      };
 
-    const planSpeed = getNumericSpeed(plan.speed);
-    const isUnlimitedData = plan.data.toLowerCase().includes("unlimited") || 
-                          plan.data.toLowerCase().includes("beyond");
+      const planSpeed = getNumericSpeed(plan.speed);
+      const isUnlimitedData = plan.data.toLowerCase().includes("unlimited") || 
+                            plan.data.toLowerCase().includes("beyond");
 
-    const speedMatch = speedRange === 'all' ||
-      (speedRange === 'low' && planSpeed <= 100) ||
-      (speedRange === 'medium' && planSpeed > 100 && planSpeed <= 300) ||
-      (speedRange === 'high' && planSpeed > 300);
+      const speedMatch = speedRange === 'all' ||
+        (speedRange === 'low' && planSpeed <= 100) ||
+        (speedRange === 'medium' && planSpeed > 100 && planSpeed <= 300) ||
+        (speedRange === 'high' && planSpeed > 300);
 
-    const priceMatch = priceRange === 'all' ||
-      (priceRange === 'low' && plan.price <= 500) ||
-      (priceRange === 'medium' && plan.price > 500 && plan.price <= 1000) ||
-      (priceRange === 'high' && plan.price > 1000);
+      const priceMatch = priceRange === 'all' ||
+        (priceRange === 'low' && plan.price <= 500) ||
+        (priceRange === 'medium' && plan.price > 500 && plan.price <= 1000) ||
+        (priceRange === 'high' && plan.price > 1000);
 
-    const dataMatch = dataType === 'all' ||
-      (dataType === 'unlimited' && isUnlimitedData) ||
-      (dataType === 'limited' && !isUnlimitedData);
+      const dataMatch = dataType === 'all' ||
+        (dataType === 'unlimited' && isUnlimitedData) ||
+        (dataType === 'limited' && !isUnlimitedData);
 
-    return speedMatch && priceMatch && dataMatch;
-  });
+      return speedMatch && priceMatch && dataMatch;
+    });
 
   // FAQ data
   const faqs = [
@@ -376,8 +385,14 @@ const BroadbandPlansPage = () => {
                         {plan.popular && <FiStar className="text-yellow-400 w-5 h-5" />}
                       </div>
                       <div className="flex items-center mb-6">
-                        <span className="text-3xl font-bold text-blue-900">₹{plan.price}</span>
-                        <span className="text-gray-500 ml-1">/month</span>
+                        <span className="text-3xl font-bold text-blue-900">
+                          {plan.name === "Fibre Entry Quarterly" ? "₹999/3mo" : 
+                           plan.name === "Fibre Entry Half Yearly" ? "₹1999/6mo" : 
+                           `₹${plan.price}`}
+                        </span>
+                        <span className="text-gray-500 ml-1">
+                          {plan.name === "Fibre Entry Quarterly" || plan.name === "Fibre Entry Half Yearly" ? "" : "/month"}
+                        </span>
                       </div>
                       <div className="mb-6">
                         <div className="flex justify-between py-2 border-b border-gray-100">
@@ -390,7 +405,11 @@ const BroadbandPlansPage = () => {
                         </div>
                         <div className="flex justify-between py-2 border-b border-gray-100">
                           <span className="text-gray-600">Billing Options</span>
-                          <span className="font-medium">Monthly/Yearly</span>
+                          <span className="font-medium">
+                            {(plan.name === "Fibre Entry Quarterly" || plan.name === "Fibre Entry Half Yearly") 
+                              ? "Quarterly/Half Yearly Only" 
+                              : "Monthly/Yearly"}
+                          </span>
                         </div>
                       </div>
                       <div className="mb-6">
@@ -465,7 +484,11 @@ const BroadbandPlansPage = () => {
                       </td>
                       <td className="px-6 py-4 whitespace-nowrap text-gray-700">{plan.speed}</td>
                       <td className="px-6 py-4 whitespace-nowrap text-gray-700">{plan.data}</td>
-                      <td className="px-6 py-4 whitespace-nowrap font-medium text-gray-900">₹{plan.price}/mo</td>
+                      <td className="px-6 py-4 whitespace-nowrap font-medium text-gray-900">
+                        {plan.name === "Fibre Entry Quarterly" ? "₹999/3mo" : 
+                         plan.name === "Fibre Entry Half Yearly" ? "₹1999/6mo" : 
+                         `₹${plan.price}/mo`}
+                      </td>
                       <td className="px-6 py-4">
                         <div className="flex flex-wrap gap-1">
                           {plan.features.includes("Free Installation") && (
@@ -479,6 +502,12 @@ const BroadbandPlansPage = () => {
                           )}
                           {plan.tv && (
                             <span className="px-2 py-1 text-xs bg-red-100 text-red-800 rounded">Live TV</span>
+                          )}
+                          {plan.features.includes("Only for Rural New Customers") && (
+                            <span className="px-2 py-1 text-xs bg-yellow-100 text-yellow-800 rounded">Rural Only</span>
+                          )}
+                          {plan.features.includes("Only for Individual Rural Customers") && (
+                            <span className="px-2 py-1 text-xs bg-yellow-100 text-yellow-800 rounded">Rural Only</span>
                           )}
                         </div>
                       </td>
@@ -497,7 +526,7 @@ const BroadbandPlansPage = () => {
         
         <FeatureWidget className="my-8" />
         
-        {/* // Or use the compact version */}
+        {/* Or use the compact version */}
         <FeatureWidget variant="compact" className="my-8" />
 
         {/* FAQ Section */}
