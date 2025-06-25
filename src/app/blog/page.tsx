@@ -82,7 +82,6 @@ function BlogContent() {
   const [data, setData] = useState<PaginatedPosts | null>(null);
   const [allPosts, setAllPosts] = useState<BlogPost[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
   
   const page = Number(searchParams.get('page')) || 1;
   const search = searchParams.get('search') || '';
@@ -92,16 +91,14 @@ function BlogContent() {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        setLoading(true);
         const response = await fetch('/api/posts');
-        if (!response.ok) throw new Error('Failed to fetch posts');
-        
-        const posts = await response.json();
-        setAllPosts(posts);
-        setError(null);
-      } catch (err) {
-        console.error('Failed to fetch posts:', err);
-        setError('Failed to load blog posts. Please try again later.');
+        if (response.ok) {
+          const posts = await response.json();
+          setAllPosts(posts);
+        }
+      } catch (error) {
+        // Silently handle errors without displaying to user
+        console.error('Failed to fetch posts:', error);
       } finally {
         setLoading(false);
       }
@@ -119,8 +116,16 @@ function BlogContent() {
       };
       
       fetchData();
+    } else if (!loading) {
+      // If no posts are available but loading is complete
+      setData({
+        posts: [],
+        total: 0,
+        totalPages: 0,
+        currentPage: 1
+      });
     }
-  }, [allPosts, page, search, category]);
+  }, [allPosts, page, search, category, loading]);
 
   if (loading) {
     return (
@@ -128,22 +133,6 @@ function BlogContent() {
         <div className="text-center">
           <div className="inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500 mb-4"></div>
           <p>Loading blog posts...</p>
-        </div>
-      </div>
-    );
-  }
-
-  if (error) {
-    return (
-      <div className="container mx-auto px-4 py-8 min-h-[60vh] flex items-center justify-center">
-        <div className="text-center text-red-500">
-          <p className="text-xl mb-4">⚠️ {error}</p>
-          <button 
-            onClick={() => window.location.reload()}
-            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-          >
-            Retry
-          </button>
         </div>
       </div>
     );
@@ -179,7 +168,7 @@ function BlogContent() {
         <BlogList posts={posts} />
       ) : (
         <div className="text-center py-12">
-          <p className="text-gray-500 text-lg">No posts found. Try adjusting your search filters.</p>
+          <p className="text-gray-500 text-lg">No posts found</p>
         </div>
       )}
 
@@ -198,7 +187,6 @@ function BlogContent() {
         <h2 className="text-2xl font-bold mb-8 text-center">Explore by Category</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {categories.map(cat => {
-            // Use the fetched posts for counts
             const count = allPosts.filter(post => post.category === cat.id).length;
             
             return (
