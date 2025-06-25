@@ -1,4 +1,3 @@
-// src/app/blog/page.tsx
 'use client';
 
 import { useSearchParams } from 'next/navigation';
@@ -82,6 +81,7 @@ function BlogContent() {
   const [data, setData] = useState<PaginatedPosts | null>(null);
   const [allPosts, setAllPosts] = useState<BlogPost[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null); // Add error state
   
   const page = Number(searchParams.get('page')) || 1;
   const search = searchParams.get('search') || '';
@@ -91,14 +91,20 @@ function BlogContent() {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
-        const response = await fetch('/api/posts');
-        if (response.ok) {
-          const posts = await response.json();
-          setAllPosts(posts);
+        // Use absolute URL for production
+        const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || '';
+        const response = await fetch(`${baseUrl}/api/posts`);
+        
+        if (!response.ok) {
+          throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
         }
+        
+        const posts = await response.json();
+        setAllPosts(posts);
+        setError(null);
       } catch (error) {
-        // Silently handle errors without displaying to user
         console.error('Failed to fetch posts:', error);
+        setError('Failed to load posts. Please try again later.');
       } finally {
         setLoading(false);
       }
@@ -117,7 +123,6 @@ function BlogContent() {
       
       fetchData();
     } else if (!loading) {
-      // If no posts are available but loading is complete
       setData({
         posts: [],
         total: 0,
@@ -126,6 +131,24 @@ function BlogContent() {
       });
     }
   }, [allPosts, page, search, category, loading]);
+
+  // Show error message if fetch fails
+  if (error) {
+    return (
+      <div className="container mx-auto px-4 py-8 min-h-[60vh] flex items-center justify-center">
+        <div className="text-center text-red-500">
+          <p className="text-xl font-semibold mb-4">Error loading posts</p>
+          <p>{error}</p>
+          <button 
+            onClick={() => window.location.reload()}
+            className="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+          >
+            Retry
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   if (loading) {
     return (
