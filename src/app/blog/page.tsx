@@ -8,7 +8,6 @@ import SearchBar from '@/components/blog/SearchBar';
 import { categories } from '@/lib/categories';
 import Link from 'next/link';
 import { useEffect, useState, Suspense } from 'react';
-import blogData from '@/data/blogData.json';
 
 interface BlogPost {
   slug: string;
@@ -82,6 +81,8 @@ function BlogContent() {
   const searchParams = useSearchParams();
   const [data, setData] = useState<PaginatedPosts | null>(null);
   const [allPosts, setAllPosts] = useState<BlogPost[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
   
   const page = Number(searchParams.get('page')) || 1;
   const search = searchParams.get('search') || '';
@@ -91,11 +92,18 @@ function BlogContent() {
   useEffect(() => {
     const fetchPosts = async () => {
       try {
+        setLoading(true);
         const response = await fetch('/api/posts');
+        if (!response.ok) throw new Error('Failed to fetch posts');
+        
         const posts = await response.json();
         setAllPosts(posts);
-      } catch (error) {
-        console.error('Failed to fetch posts:', error);
+        setError(null);
+      } catch (err) {
+        console.error('Failed to fetch posts:', err);
+        setError('Failed to load blog posts. Please try again later.');
+      } finally {
+        setLoading(false);
       }
     };
     
@@ -114,13 +122,41 @@ function BlogContent() {
     }
   }, [allPosts, page, search, category]);
 
-  if (!data) {
-    return <div className="container mx-auto px-4 py-8">Loading...</div>;
+  if (loading) {
+    return (
+      <div className="container mx-auto px-4 py-8 min-h-[60vh] flex items-center justify-center">
+        <div className="text-center">
+          <div className="inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500 mb-4"></div>
+          <p>Loading blog posts...</p>
+        </div>
+      </div>
+    );
   }
 
-  const { posts, total, totalPages, currentPage } = data;
+  if (error) {
+    return (
+      <div className="container mx-auto px-4 py-8 min-h-[60vh] flex items-center justify-center">
+        <div className="text-center text-red-500">
+          <p className="text-xl mb-4">⚠️ {error}</p>
+          <button 
+            onClick={() => window.location.reload()}
+            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          >
+            Retry
+          </button>
+        </div>
+      </div>
+    );
+  }
 
-return (
+  const { posts, total, totalPages, currentPage } = data || {
+    posts: [],
+    total: 0,
+    totalPages: 0,
+    currentPage: 1
+  };
+
+  return (
     <div className="container mx-auto px-4 py-8">
       {/* Hero Section */}
       <section className="mb-12 text-center">
@@ -139,7 +175,13 @@ return (
       </div>
 
       {/* Blog List */}
-      <BlogList posts={posts} />
+      {posts.length > 0 ? (
+        <BlogList posts={posts} />
+      ) : (
+        <div className="text-center py-12">
+          <p className="text-gray-500 text-lg">No posts found. Try adjusting your search filters.</p>
+        </div>
+      )}
 
       {/* Pagination */}
       {totalPages > 1 && (
@@ -156,9 +198,8 @@ return (
         <h2 className="text-2xl font-bold mb-8 text-center">Explore by Category</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {categories.map(cat => {
-            const count = blogData.posts.filter(p => 
-              p.metadata.category === cat.id
-            ).length;
+            // Use the fetched posts for counts
+            const count = allPosts.filter(post => post.category === cat.id).length;
             
             return (
               <Link key={cat.id} href={`/blog/category/${cat.id}`}>

@@ -84,7 +84,7 @@ Enjoy "toll-quality" voice clarity powered by:
 3. **Channel Configuration**  
    Select your ideal package (10-45 channels) with our business consultants
 
-![SIP Trunk Implementation Diagram](/images/sip-trunk-architecture.png)
+![SIP Trunk Implementation Diagram](/assets/hero-enterprise.webp)
 *Simplified SIP Trunk architecture connecting your office to BSNL's cloud*
 
 ---
