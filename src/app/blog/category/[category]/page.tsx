@@ -51,7 +51,7 @@ export default async function CategoryPage({
     title: post.title,
     excerpt: post.excerpt,
     date: post.date,
-    coverImage: post.coverImage || './assets/telecom-expert.jpg',
+    coverImage: post.coverImage || '/assets/telecom-expert.jpg',
     category: post.category || 'uncategorized',
     author: post.author,
     tags: post.tags,

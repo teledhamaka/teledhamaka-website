@@ -25,7 +25,7 @@ export default function Header() {
           <Link href="/broadband" className="hover:text-blue-200 transition-colors">broadband</Link>
           <Link href="/mobile" className="hover:text-blue-200 transition-colors">mobile</Link>
           <Link href="/blog" className="hover:text-blue-200 transition-colors">blog</Link>
-          <Link href="/coverage" className="hover:text-blue-200 transition-colors">coverage</Link>
+          <Link href="/calculator" className="hover:text-blue-200 transition-colors">calculator</Link>
         </div>
         
         {/* Mobile Menu Button */}

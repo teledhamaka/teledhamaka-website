@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import blogData from '@/data/blogData.json';
+import blogData from '@/app/blog/blogData.json';
 
 export interface BlogPost {
   slug: string;

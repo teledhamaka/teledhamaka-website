@@ -1,0 +1,161 @@
+{
+  "posts": [
+    {
+      "slug": "bsnl-sim-charge-revision-2025",
+      "filePath": "./src/content/posts/bsnl-sim-charge-revision-2025.md",
+      "metadata": {
+        "title": "Big News! BSNL Revises 5G/4G SIM Charges & Offers FREE SIMs for New & Existing Customers (From April 1, 2025)",
+        "metaTitle": "BSNL Free 4G/5G SIM 2025 | New SIM Charges Explained | BSNL Upgrade Offer",
+        "metaDescription": "Exciting update from BSNL! Learn about the revised 5G/4G SIM card charges effective April 1, 2025, and how new, MNP, and existing 2G/3G customers can get a FREE SIM upgrade.",
+        "date": "2025-06-05",
+        "author": "telecom-expert",
+        "coverImage": "/assets/bsnl-sim-charges-cover.webp",
+        "tags": ["BSNL", "5G SIM", "4G SIM", "Free SIM", "SIM Upgrade", "New Connection", "MNP", "Telecom News India"],
+        "keywords": ["BSNL free SIM", "BSNL 4G SIM upgrade", "BSNL new SIM charges", "BSNL MNP offer", "BSNL 5G ready SIM"],
+        "category": "mobile",
+        "excerpt": "From April 1, 2025, BSNL is shaking things up with revised 5G/4G SIM charges and an exciting offer: free SIM cards for new and MNP customers, plus free upgrades for 2G/3G users! Discover how you can benefit."
+      }
+    },
+    {
+      "slug": "bsnl-postpaid-plan-525-review",
+      "filePath": "./src/content/posts/bsnl-postpaid-plan-525-review.md",
+      "metadata": {
+        "title": "BSNL Postpaid Plan-525 Review: Unlimited Calls & 85GB Data for Heavy Users",
+        "metaTitle": "BSNL Plan-525 Review 2025 | 85GB Data + Unlimited Calls | Best Value Postpaid Plan",
+        "metaDescription": "Complete guide to BSNL Postpaid Plan-525: unlimited calls, 85GB data, free SMS, roaming benefits, and comparison with other BSNL plans. Perfect for heavy users!",
+        "date": "2025-05-11",
+        "author": "telecom-expert",
+        "coverImage": "/assets/hero-mobile.webp",
+        "tags": [
+          "BSNL Postpaid Plan 525",
+          "Unlimited calling plans",
+          "High data mobile plans",
+          "BSNL family postpaid",
+          "Affordable postpaid plans 2025"
+        ],
+        "keywords": [
+          "BSNL 85GB plan",
+          "Best postpaid plan India",
+          "Unlimited calls plan",
+          "BSNL data rollover"
+        ],
+        "category": "mobile",
+        "excerpt": "Discover why BSNL's Plan-525 is perfect for heavy data users with 85GB data + unlimited calls at just ₹525/month."
+      }
+    },
+    {
+      "slug": "bsnl-fibre-basic-499-review",
+      "filePath": "./src/content/posts/bsnl-fibre-basic-499-review.md",
+      "metadata": {
+        "title": "BSNL Fibre Basic 499 Plan: Your Gateway to Affordable High-Speed Internet",
+        "metaTitle": "BSNL Fibre Basic 499 | Best Affordable FTTH Plan | BSNL Broadband Review",
+        "metaDescription": "Discover BSNL's Fibre Basic 499 plan: high-speed internet, unlimited calls, and value for money. Learn about BSNL FTTH benefits, ONT types, and why this plan is perfect for your home.",
+        "date": "2025-06-04",
+        "author": "telecom-expert",
+        "coverImage": "/assets/bsnl-fibre-basic-499-cover.webp",
+        "tags": ["BSNL FTTH", "Fibre Basic 499", "Affordable Broadband", "High-Speed Internet", "Home Internet India"],
+        "keywords": ["BSNL Fibre Basic 499 review", "BSNL FTTH plans", "best broadband plan under 500", "fiber internet BSNL", "ONT BSNL"],
+        "category": "broadband",
+        "excerpt": "Looking for a budget-friendly fiber internet plan? The BSNL Fibre Basic 499 offers excellent speed and unlimited calls, making it ideal for everyday home use."
+      }
+    },    
+    {
+      "slug": "bsnl-bitv-review",
+      "filePath": "./src/content/posts/bsnl-bitv-review.md",
+      "metadata": {
+        "title": "BSNL BiTV (Entertainment) & IFTV: Free Live TV & OTT for both Mobile & Broadband users",
+        "metaTitle": "BSNL BiTV Review 2025 | Free Live TV & OTT for both Mobile & Broadband users",
+        "metaDescription": "Explore BSNL BiTV (Entertainment) - now offering over 450+ live TV channels and various OTT platforms for free to all BSNL mobile users. Learn how to activate and what's included.",
+        "date": "2025-06-05",
+        "author": "telecom-expert",
+        "coverImage": "/assets/bsnl-bitv-ott.webp",
+        "tags": ["BSNL BiTV", "Internet TV", "Free Live TV", "BSNL Mobile", "OTTplay", "Direct-to-Mobile TV"],
+        "keywords": ["BSNL BiTV free", "BSNL live TV app", "OTTplay BSNL", "BSNL entertainment"],
+        "category": "technical",
+        "excerpt": "Discover BSNL BiTV, the game-changing Internet TV service that offers over 450 live TV channels and select OTT content for free to all BSNL mobile users."
+      }
+    },
+    {
+      "slug": "bsnl-ftth-wifi-roaming-review",
+      "filePath": "./src/content/posts/bsnl-ftth-wifi-roaming-review.md",
+      "metadata": {
+        "title": "Unlock India's Connected Future: BSNL FTTH Wi-Fi Roaming - Your Free High-Speed Companion!",
+        "metaTitle": "BSNL FTTH Wi-Fi Roaming | Free Hotspot Access | Stay Connected Anywhere",
+        "metaDescription": "Discover BSNL's National Wi-Fi Roaming for FTTH customers! Get free, high-speed internet at BSNL hotspots across India. Perfect for travelers, remote workers, and anyone on the go. Learn how to activate and enjoy seamless connectivity!",
+        "date": "2025-06-05",
+        "author": "telecom-expert",
+        "coverImage": "/assets/bsnl-wifi-roaming.webp",
+        "tags": ["BSNL FTTH", "Wi-Fi Roaming", "Free Wi-Fi", "BSNL Hotspots", "National Connectivity", "High-Speed Internet", "Telecom India"],
+        "keywords": ["BSNL Wi-Fi roaming for fiber customers", "Free internet BSNL FTTH", "BSNL public Wi-Fi", "Connect BSNL hotspots", "BSNL roaming Wi-Fi activation"],
+        "category": "broadband",
+        "excerpt": "Your BSNL Fiber connection just got an incredible upgrade! Learn how BSNL's new National Wi-Fi Roaming service lets you enjoy free, high-speed internet at hotspots across India, making your connectivity truly limitless."
+      }
+    },
+    {
+      "slug": "how-to-boost-internet-speed",
+      "filePath": "./src/content/posts/how-to-boost-internet-speed.md",
+      "metadata": {
+        "title": "How to Boost Internet Speed: 10 Proven Tips for Faster Browse in 2025",
+        "metaTitle": "Boost Internet Speed in 2025 | 10 Expert Tips for Faster Connectivity",
+        "metaDescription": "Struggling with slow internet? Discover 10 proven methods to boost your Wi-Fi speed, reduce lag, and optimize your connection for streaming, gaming, and work.",
+        "date": "2025-06-04",
+        "author": "telecom-expert",
+        "coverImage": "/assets/hero-broadband.webp",
+        "tags": [
+          "boost internet speed",
+          "Wi-Fi optimization",
+          "faster Browse",
+          "reduce latency",
+          "internet troubleshooting"
+        ],
+        "keywords": [
+          "how to increase Wi-Fi speed",
+          "best DNS servers 2025",
+          "fix slow internet",
+          "optimize router settings"
+        ],
+        "category": "technical",
+        "excerpt": "Tired of buffering? Learn 10 expert-approved ways to boost your internet speed for seamless streaming, gaming, and Browse."
+      }    
+    },
+    {
+      "slug": "bsnl-sip-trunk-enterprise",
+      "filePath": "./src/content/posts/bsnl-sip-trunk-enterprise.md",
+      "metadata": {
+        "title": "Revolutionize Your Business Calls with BSNL SIP Trunk Solutions",
+        "metaTitle": "BSNL SIP Trunk for Enterprises | Scalable Business Phone System | Cloud Telephony",
+        "metaDescription": "Transform your business communication with BSNL's enterprise-grade SIP Trunk service. Enjoy scalable, cost-effective voice solutions with crystal-clear call quality.",
+        "date": "2025-06-18",
+        "author": "telecom-expert",
+        "coverImage": "/assets/bsnl-sip-trunk-cover.webp",
+        "tags": [
+          "BSNL SIP Trunk",
+          "EPABX",
+          "Enterprise Communication",
+          "Business Phone System",
+          "Cloud Telephony",
+          "SIP Solutions",
+          "Scalable VoIP",
+          "Business VoIP"
+        ],
+        "keywords": [
+          "BSNL business SIP",
+          "SIP trunk benefits",
+          "Enterprise voice solution",
+          "Cloud-based telephony",
+          "Business call scaling",
+          "BSNL enterprise services"
+        ],
+        "category": "enterprise",
+        "excerpt": "Discover how BSNL's SIP Trunk service helps enterprises replace traditional phone lines with flexible, scalable cloud-based communication."
+      }
+    }
+  ],
+  "authors": {
+    "telecom-expert": {
+      "name": "Telecom Expert",
+      "bio": "Industry professional with 10+ years experience analyzing telecom plans",
+      "avatar": "/assets/telecom-expert.jpg"
+    }
+  }
+}

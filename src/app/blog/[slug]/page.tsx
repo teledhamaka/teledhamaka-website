@@ -31,10 +31,10 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
       description: postData.excerpt,
       type: 'article',
       publishedTime: postData.date,
-      url: `https://yourdomain.com/blog/${postData.slug}`,
+      url: `/blog/${postData.slug}`,
       images: [
         {
-          url: postData.coverImage || 'https://yourdomain.com/images/default-blog-cover.jpg',
+          url: postData.coverImage || '/assets/hero-enterprise.webp',
           alt: postData.title,
         },
       ],
@@ -43,7 +43,7 @@ export async function generateMetadata(props: { params: Promise<{ slug: string }
       card: 'summary_large_image',
       title: postData.title,
       description: postData.excerpt,
-      images: [postData.coverImage || 'https://yourdomain.com/images/default-blog-cover.jpg'],
+      images: [postData.coverImage || '/assets/hero-enterprise.webp'],
     },
   };
 }

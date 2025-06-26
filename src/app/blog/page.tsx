@@ -1,3 +1,4 @@
+// src/app/blog/page.tsx
 'use client';
 
 import { useSearchParams } from 'next/navigation';
@@ -7,6 +8,8 @@ import SearchBar from '@/components/blog/SearchBar';
 import { categories } from '@/lib/categories';
 import Link from 'next/link';
 import { useEffect, useState, Suspense } from 'react';
+import blogData from './blogData.json'; // Import JSON directly
+import matter from 'gray-matter'; // Add gray-matter for parsing
 
 interface BlogPost {
   slug: string;
@@ -30,13 +33,13 @@ interface PaginatedPosts {
   currentPage: number;
 }
 
-async function getPaginatedPosts(
+function getPaginatedPosts(
   allPosts: BlogPost[],
   page: number,
   perPage: number,
   category?: string,
   search?: string
-): Promise<PaginatedPosts> {
+): PaginatedPosts {
   // Filter by category if specified
   let filteredPosts = category 
     ? allPosts.filter(post => post.category === category)
@@ -81,48 +84,59 @@ function BlogContent() {
   const [data, setData] = useState<PaginatedPosts | null>(null);
   const [allPosts, setAllPosts] = useState<BlogPost[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null); // Add error state
   
   const page = Number(searchParams.get('page')) || 1;
   const search = searchParams.get('search') || '';
   const category = searchParams.get('category') || undefined;
 
-  // Load blog posts from API
+  // Load blog posts directly from JSON and markdown files
   useEffect(() => {
-    const fetchPosts = async () => {
+    const loadPosts = async () => {
       try {
-        // Use absolute URL for production
-        const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || '';
-        const response = await fetch(`${baseUrl}/api/posts`);
+        const posts = await Promise.all(
+          blogData.posts.map(async (post) => {
+            // Fetch markdown content directly
+            const response = await fetch(post.filePath);
+            const content = await response.text();
+            const parsed = matter(content);
+            
+            const author = blogData.authors[post.metadata.author as keyof typeof blogData.authors];
+            
+            return {
+              slug: post.slug,
+              title: post.metadata.title,
+              excerpt: post.metadata.excerpt,
+              date: post.metadata.date,
+              coverImage: post.metadata.coverImage,
+              category: post.metadata.category,
+              author: {
+                name: author.name,
+                avatar: author.avatar
+              },
+              tags: post.metadata.tags,
+              content: parsed.content
+            };
+          })
+        );
         
-        if (!response.ok) {
-          throw new Error(`Failed to fetch: ${response.status} ${response.statusText}`);
-        }
-        
-        const posts = await response.json();
         setAllPosts(posts);
-        setError(null);
       } catch (error) {
-        console.error('Failed to fetch posts:', error);
-        setError('Failed to load posts. Please try again later.');
+        console.error('Failed to load posts:', error);
       } finally {
         setLoading(false);
       }
     };
-    
-    fetchPosts();
+
+    loadPosts();
   }, []);
 
   // Filter and paginate posts when parameters change
   useEffect(() => {
     if (allPosts.length > 0) {
-      const fetchData = async () => {
-        const result = await getPaginatedPosts(allPosts, page, 6, category, search);
-        setData(result);
-      };
-      
-      fetchData();
+      const result = getPaginatedPosts(allPosts, page, 6, category, search);
+      setData(result);
     } else if (!loading) {
+      // If no posts are available but loading is complete
       setData({
         posts: [],
         total: 0,
@@ -131,24 +145,6 @@ function BlogContent() {
       });
     }
   }, [allPosts, page, search, category, loading]);
-
-  // Show error message if fetch fails
-  if (error) {
-    return (
-      <div className="container mx-auto px-4 py-8 min-h-[60vh] flex items-center justify-center">
-        <div className="text-center text-red-500">
-          <p className="text-xl font-semibold mb-4">Error loading posts</p>
-          <p>{error}</p>
-          <button 
-            onClick={() => window.location.reload()}
-            className="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
-          >
-            Retry
-          </button>
-        </div>
-      </div>
-    );
-  }
 
   if (loading) {
     return (

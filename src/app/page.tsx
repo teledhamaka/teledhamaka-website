@@ -121,9 +121,9 @@ export default function HomePage() {
          <div className="bg-white p-6 rounded-lg shadow-md border border-gray-100 text-center hover:shadow-lg transition-shadow duration-300">
           <div className="text-orange-600 text-4xl mb-3 mx-auto w-fit">💬</div>
           <h3 className="text-xl font-semibold mb-2">Chat Support</h3>
-          <p className="text-gray-600 text-sm">Get quick answers to your questions via our chatbot.</p>
+          <p className="text-gray-600 text-sm">Get Distance between two locations, Data usage Calculator etc...</p>
           {/* Link to where chatbot will be, maybe opens a modal or goes to a contact page */}
-          <Link href="/#chatbot" className="text-orange-600 hover:text-orange-800 text-sm font-medium mt-3 inline-block">Chat Now →</Link>
+          <Link href="/calculator" className="text-orange-600 hover:text-orange-800 text-sm font-medium mt-3 inline-block">Chat Now →</Link>
         </div>
       </section>
       {/* ... (keep previous sections unchanged) ... */}
